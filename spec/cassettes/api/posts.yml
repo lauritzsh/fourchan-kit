@@ -1,0 +1,300 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://a.4cdn.org/g/thread/41658861.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Wed, 30 Apr 2014 08:31:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Wed, 30 Apr 2014 08:22:33 GMT
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Expires:
+      - "-1"
+      Cf-Ray:
+      - 123262106c2d0a42-ARN
+    body:
+      encoding: UTF-8
+      string: '{"posts":[{"no":41658861,"now":"04\/29\/14(Tue)19:50:08","name":"Anonymous","sub":"Daily
+        Programming Thread","com":"Daily Programming Thread<br><br>Honor fuzetsu then
+        tell us what are you working on","filename":"dptfuzetsu","ext":".png","w":779,"h":465,"tn_w":250,"tn_h":149,"tim":1398815408707,"time":1398815408,"md5":"TOKqr4p8cI1OnfrjahFM9A==","fsize":353362,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"daily-programming-thread","replies":68,"images":7},{"no":41658900,"now":"04\/29\/14(Tue)19:52:44","name":"Anonymous","com":"Where
+        did he go? Do you think he still browses \/g\/, just without trip? Or did
+        he leave us forever??? <br><br>;____;","time":1398815564,"resto":41658861},{"no":41658906,"now":"04\/29\/14(Tue)19:53:10","name":"Anonymous","com":"im
+        working on getting urxvt to allow me to click links but this shit is not working.
+        anyone had this problem? using url-select perl script","time":1398815590,"resto":41658861},{"no":41658921,"now":"04\/29\/14(Tue)19:54:12","name":"Anonymous","com":"<a
+        href=\"#p41658900\" class=\"quotelink\">&gt;&gt;41658900<\/a><br>he&#039;s
+        on #haskell<br><br>and here without trip<br><br>but he wasn&#039;t picked
+        for gSOC to do a haskell project so he&#039;s a faggot","time":1398815652,"resto":41658861},{"no":41660238,"now":"04\/29\/14(Tue)21:17:18","name":"Anonymous","com":"<a
+        href=\"#p41658921\" class=\"quotelink\">&gt;&gt;41658921<\/a><br>learning
+        Scala<br><br>but what can I do with it?","time":1398820638,"resto":41658861},{"no":41660430,"now":"04\/29\/14(Tue)21:28:23","name":"Anonymous","com":"Could
+        someone post the beginner programming tasks?<br>Also:<pre class=\"prettyprint\">#include
+        &lt;stdlib.h&gt;<br>#include &lt;stdio.h&gt;<br>#define TARG stdout<br> <br>
+        <br>int main()<br> {<br>   int cell[30000]={0},pos=0,i=0,INDC=0,sh<wbr>ift=0,mode=0;<br>   char
+        input[30000];                           \/*<br>   printf(&quot;input mode
+        (0) or file mode (1)?: &quot;);<br>   scanf(&quot;%d&quot;,&amp;mode);                           *\/<br>   scanf(&quot;%s&quot;,&amp;input);<br>   fprintf(TARG,&quot;#include
+        &lt;stdio.h&gt;\\n\\n\\n\\n\\n&quot;<br>                &quot;int main(void)\\n  {&quot;<br>                &quot;\\tint
+        cell[30000]={0},pos=0;\\n&quot;);<br>   for(;i!=sizeof(input)&amp;&amp;input[i]!=&#039;\\<wbr>0&#039;;){<br>
+        <br>     if(input[i]==&#039;+&#039;){INDC++,i++;for(;i<wbr>nput[i]==&#039;+&#039;;INDC++,i++);fprintf(TA<wbr>RG,&quot;\\tcell[pos]+=%d;\\n&quot;,INDC);INDC=<wbr>0;}<br>     if(input[i]==&#039;-&#039;){INDC++,i++;for(;i<wbr>nput[i]==&#039;-&#039;;INDC++,i++);fprintf(TA<wbr>RG,&quot;\\tcell[pos]-=%d;\\n&quot;,INDC);INDC=<wbr>0;}<br>     if(input[i]==&#039;&gt;&#039;){INDC++,i++;for(;i<wbr>nput[i]==&#039;&gt;&#039;;INDC++,i++);fprintf(TA<wbr>RG,&quot;\\tpos+=%d;\\n&quot;,INDC);shift+=INDC<wbr>;INDC=0;}<br>     if(input[i]==&#039;&lt;&#039;){INDC++,i++;for(;i<wbr>nput[i]==&#039;&lt;&#039;
+        ;INDC++,i++);fprintf(TARG,&quot;\\tpos-=%<wbr>d;\\n&quot;,INDC);shift-=INDC;INDC=0;}<br>     if(input[i]==&#039;[&#039;){fprintf(TARG,&quot;\\tw<wbr>hile(cell[%d]){\\n&quot;,shift);i++;}<br>     if(input[i]==&#039;]&#039;){fprintf(TARG,&quot;  }\\n&quot;);i++;}<br>     if(input[i]==&#039;,&#039;){fprintf(TARG,&quot;\\tg<wbr>etchar(cell[%d]);\\n&quot;,shift);i++;}<br>     if(input[i]==&#039;.&#039;){fprintf(TARG,&quot;\\tp<wbr>rintf(\\&quot;  \\&quot;,cell[pos]);\\n&quot;,shift);i++;}<br>
+        <br>   }<br>   fprintf(TARG,&quot;\\treturn 0;\\n  }&quot;);<br>   return
+        0;<br>}<\/pre><br>try with this as input<br><pre class=\"prettyprint\">&gt;++++++++[&lt;++++++++++&gt;-]&lt;.<\/pre>","time":1398821303,"resto":41658861},{"no":41660445,"now":"04\/29\/14(Tue)21:29:31","name":"N0t_G4b3n","com":"<a
+        href=\"#p41660238\" class=\"quotelink\">&gt;&gt;41660238<\/a><br>scala is
+        one of the rare languages which has semantics for functional objects","filename":"dog_hat","ext":".jpg","w":520,"h":800,"tn_w":81,"tn_h":125,"tim":1398821371367,"time":1398821371,"md5":"fEMjd3fSBmEevhr0yRC9SQ==","fsize":55911,"resto":41658861,"trip":"!!dDbM1UXB1Uz"},{"no":41660517,"now":"04\/29\/14(Tue)21:33:13","name":"Anonymous","com":"<a
+        href=\"#p41660238\" class=\"quotelink\">&gt;&gt;41660238<\/a><br>So do I.
+        Know any good Scala web framework? They just look 2ENTERPRISE4me.","time":1398821593,"resto":41658861},{"no":41660625,"now":"04\/29\/14(Tue)21:41:13","name":"Anonymous","com":"<a
+        href=\"#p41660517\" class=\"quotelink\">&gt;&gt;41660517<\/a><br>Play?<br>http:\/\/www.playframework.com\/","time":1398822073,"resto":41658861},{"no":41660657,"now":"04\/29\/14(Tue)21:43:06","name":"Anonymous","com":"I
+        posted a few things yesterday and have returned with one final quandary. <br><br>A
+        public read-only decimal property named &#039;Balance&#039; which returns
+        the current balance of the account (opening balance plus the value of any
+        stored transactions). <br><br>I&#039;m on my phone so here is the code: <br>pastebin.com\/r99b6srg<br><br>It&#039;s
+        the final line. (There is code after it but it is fairly irrelevant)","time":1398822186,"resto":41658861},{"no":41660753,"now":"04\/29\/14(Tue)21:49:22","name":"Anonymous","com":"<a
+        href=\"#p41660625\" class=\"quotelink\">&gt;&gt;41660625<\/a><br>Isn&#039;t
+        it heavy and bloated?","time":1398822562,"resto":41658861},{"no":41660778,"now":"04\/29\/14(Tue)21:50:40","name":"Anonymous","com":"<a
+        href=\"#p41660753\" class=\"quotelink\">&gt;&gt;41660753<\/a><br>Okay then
+        use<br>http:\/\/www.scalatra.org\/","time":1398822640,"resto":41658861},{"no":41661043,"now":"04\/29\/14(Tue)22:06:39","name":"Anonymous","com":"<span
+        class=\"quote\">&gt;tfw i want to learn C just to fit in \/dpt\/<\/span><br><span
+        class=\"quote\">&gt;tfw i&#039;d also want to learn haskell to look cool<\/span><br>what
+        do","time":1398823599,"resto":41658861},{"no":41661065,"now":"04\/29\/14(Tue)22:07:48","name":"Anonymous","com":"*tosses
+        salt over both shoulders*<br>Wololo awimoway ayeyeyo<br>*draws cross upon
+        chest*<br><br>Praise be to Fuzetsu and Haskell, for I have sinned. I&#039;ve
+        been watching the seminars of the heathen and traitor Andrei Alexandrescu
+        and follow in His path.<br><br>._.","time":1398823668,"resto":41658861},{"no":41661072,"now":"04\/29\/14(Tue)22:08:14","name":"Anonymous","com":"Here&#039;s
+        my problem \/sci\/, let me give a little background.<br>I&#039;m making a
+        program in Javascript that uses HTML5&#039;s canvas to draw plants generated
+        from L-Systems using turtle rendering. This pretty much means I draw line
+        segments one at a time to get my trees.<br><br>It works fine, but I wanted
+        to make it scale so that big trees don&#039;t go off the screen. To do this,
+        I&#039;ve calculated the the height and the width of the plant after it&#039;s
+        generated but before it is drawn. When I draw it, I multiply the line lengths
+        I am using by some variable that I call sizeMod. Given that I know the height\/width
+        of the plant, how do I calculate sizeMod? I feel like knowing the height and
+        width isn&#039;t enough, and that I&#039;d have to do something else while
+        calculating the points, but I don&#039;t know what that is. Any pointers in
+        the right direction would be awesome.<br><br>pic related, a tree that is not
+        scaling correctly.","filename":"PEVOcap","ext":".png","w":552,"h":501,"tn_w":125,"tn_h":113,"tim":1398823694277,"time":1398823694,"md5":"2NaCWq2B5cb6V2LbkzcZpQ==","fsize":35710,"resto":41658861},{"no":41661082,"now":"04\/29\/14(Tue)22:08:50","name":"Anonymous","com":"<a
+        href=\"#p41661043\" class=\"quotelink\">&gt;&gt;41661043<\/a><br>Learn both?<br>It&#039;s
+        not like programming is hard.","time":1398823730,"resto":41658861},{"no":41661094,"now":"04\/29\/14(Tue)22:09:35","name":"Anonymous","com":"<a
+        href=\"#p41661072\" class=\"quotelink\">&gt;&gt;41661072<\/a><br>sorry, I
+        meant \/g\/. I posted about this program in a \/sci\/ thread earlier about
+        fractals.","time":1398823775,"resto":41658861},{"no":41661106,"now":"04\/29\/14(Tue)22:10:10","name":"Anonymous","com":"[-  Python  -]<br><span
+        class=\"quote\">&gt; http:\/\/www.python.org\/<\/span><br><br>Friendly reminder
+        that python is the top notch programming language<br>and has been heavily
+        adopted by the industry and the academics.<br><br>Python has events and conferences
+        all around the world:<br><span class=\"quote\">&gt; http:\/\/www.pycon.org\/<\/span><br><br>Python
+        even has a video repository!!<br><span class=\"quote\">&gt; http:\/\/pyvideo.org\/<\/span><br><br>Find
+        your local pythonistas group<br><span class=\"quote\">&gt; http:\/\/wiki.python.org\/moin\/LocalUs<wbr>erGroups<\/span><br><br>Join
+        python and become a true computer scientist","filename":"136624089945","ext":".png","w":4961,"h":3508,"tn_w":125,"tn_h":88,"tim":1398823810683,"time":1398823810,"md5":"PNXzJuw0np+5g\/w9x\/NY0w==","fsize":2972802,"resto":41658861},{"no":41661134,"now":"04\/29\/14(Tue)22:11:48","name":"Anonymous","com":"perhaps
+        a silly question, but help me out here \/dpt\/<br>How do I go from code monkey
+        to master programmer?<br>Currently I work a comfortable 9 - 5, but over the
+        course of the last 5 months I&#039;ve come to realize that I am just a code
+        monkey, churning code over maintaining a system.","time":1398823908,"resto":41658861},{"no":41661152,"now":"04\/29\/14(Tue)22:13:01","name":"Anonymous","com":"<a
+        href=\"#p41661072\" class=\"quotelink\">&gt;&gt;41661072<\/a><br><span class=\"quote\">&gt;To
+        do this, I&#039;ve calculated the the height and the width of the plant after
+        it&#039;s generated but before it is drawn.<\/span><br><br>You&#039;re playing
+        God, anon.","time":1398823981,"resto":41658861},{"no":41661208,"now":"04\/29\/14(Tue)22:16:16","name":"Anonymous","com":"<a
+        href=\"#p41661152\" class=\"quotelink\">&gt;&gt;41661152<\/a><br>That&#039;s
+        the goal, at least. I just want to make pretty plants out of fractals.","time":1398824176,"resto":41658861},{"no":41661499,"now":"04\/29\/14(Tue)22:33:46","name":"Anonymous","com":"<a
+        href=\"#p41661106\" class=\"quotelink\">&gt;&gt;41661106<\/a><br>that is so
+        gay","time":1398825226,"resto":41658861},{"no":41661535,"now":"04\/29\/14(Tue)22:36:06","name":"Anonymous","com":"a
+        webm hosting and sharing sire<br><br>How do I into webdev \/g\/?","filename":"hubble959","ext":".webm","w":650,"h":366,"tn_w":125,"tn_h":70,"tim":1398825366614,"time":1398825366,"md5":"7dDo9lIojUGqNk2n8JB7Dw==","fsize":2903231,"resto":41658861},{"no":41661595,"now":"04\/29\/14(Tue)22:39:04","name":"Anonymous","com":"<a
+        href=\"#p41661106\" class=\"quotelink\">&gt;&gt;41661106<\/a><br>I would rather
+        eat shit and die.","time":1398825544,"resto":41658861},{"no":41661686,"now":"04\/29\/14(Tue)22:43:16","name":"Anonymous","com":"<a
+        href=\"#p41661535\" class=\"quotelink\">&gt;&gt;41661535<\/a><br>read eloquent
+        javascript<br>read node.js the right way","time":1398825796,"resto":41658861},{"no":41661742,"now":"04\/29\/14(Tue)22:46:36","name":"Anonymous","com":"<a
+        href=\"#p41661535\" class=\"quotelink\">&gt;&gt;41661535<\/a><br>If you wish
+        to code a web application from scratch, you must first invent the universe.","filename":"inconsolata","ext":".png","w":356,"h":208,"tn_w":125,"tn_h":73,"tim":1398825996202,"time":1398825996,"md5":"AWPW7lLjYw3e\/L9FxBAzvg==","fsize":20729,"resto":41658861},{"no":41661836,"now":"04\/29\/14(Tue)22:51:39","name":"Anonymous","com":"If
+        you had to make a web application that had to scale to say 100k-1M users,
+        storing user data, including user uploaded images and perhaps videos, what
+        would you use for storage? I realise that on a smaller scale, one server with
+        a SQL database and a directory structure for the binary files would work fine,
+        but what about on this greater scale?","filename":"1397151886780","ext":".jpg","w":366,"h":321,"tn_w":125,"tn_h":109,"tim":1398826299056,"time":1398826299,"md5":"o3KzTo+c25AA1qizihagZw==","fsize":8183,"resto":41658861},{"no":41661891,"now":"04\/29\/14(Tue)22:55:20","name":"Anonymous","com":"ROMhacking
+        an old SNES game I used to play. There&#039;s an emulator built with debuggging
+        features, only I don&#039;t want to reboot into Windows.<br><br>I&#039;m just
+        using a disassembler and trying to work my way around the ROM.","time":1398826520,"resto":41658861},{"no":41662084,"now":"04\/29\/14(Tue)23:07:13","name":"Anonymous","com":"ive
+        been programming drupal modules and themes in php. still learning basics.","time":1398827233,"resto":41658861},{"no":41662345,"now":"04\/29\/14(Tue)23:24:14","name":"Anonymous","com":"Learning
+        scheme.<br><br>What&#039;s the go-to emacs package?","time":1398828254,"resto":41658861},{"no":41662381,"now":"04\/29\/14(Tue)23:26:12","name":"Anonymous","com":"<a
+        href=\"#p41662345\" class=\"quotelink\">&gt;&gt;41662345<\/a><br>geiser for
+        Scheme, m8<br>get the SICP texinfo package too","time":1398828372,"resto":41658861},{"no":41662670,"now":"04\/29\/14(Tue)23:51:26","name":"Anonymous","com":"<a
+        href=\"#p41661072\" class=\"quotelink\">&gt;&gt;41661072<\/a><br>Find the
+        branch that goes out of bounds, or if multiple, the worst offender. Now trace
+        back from that to the root. This path is the set of lines you&#039;ll use
+        to get your scaling factor.<br><br>In order to calculate the tree height from
+        that , use trig. Once you have the height as a sum of &quot;length*sin(theta)&quot;
+        , replace every &quot;length&quot; term with a &quot;scalefactor*length&quot;
+        term. If we call that expression treeH, you want to solve the equation &quot;treeH
+        =  desiredHeight&quot; for the variable scalefactor.<br><br>I hope that wasn&#039;t
+        too poorly phrased.<br><br>Of course, you could just brute force it and do
+        a binary search for an acceptable scale factor if the trees were simple enough,
+        but that&#039;s not very elegant and also may practically not be efficient
+        enough.","time":1398829886,"resto":41658861},{"no":41662703,"now":"04\/29\/14(Tue)23:54:27","name":"Anonymous","com":"<a
+        href=\"#p41661134\" class=\"quotelink\">&gt;&gt;41661134<\/a><br>Read good
+        books. Learn areas outside your comfort zone. Ask questions, like you&#039;re
+        doing now. <br><br>Obligatory &quot;Learn programming in 10 years&quot; reference.","time":1398830067,"resto":41658861},{"no":41662709,"now":"04\/29\/14(Tue)23:55:14","name":"Anonymous","com":"<a
+        href=\"#p41661072\" class=\"quotelink\">&gt;&gt;41661072<\/a><br>Follow the
+        branches that go most directly north, south, east, and west, and it looks
+        like you&#039;ll have a *decent* idea of how big the tree is.","time":1398830114,"resto":41658861},{"no":41662761,"now":"04\/29\/14(Tue)23:59:56","name":"Anonymous","com":"<a
+        href=\"#p41661836\" class=\"quotelink\">&gt;&gt;41661836<\/a><br>It&#039;ll
+        still work fine, probably. For all intents and purposes, ACID databases scale
+        fine until you&#039;re ridiculously huge (and noACID\/noSQL databases can
+        also have surprising scaling properties), and you can mount network storage
+        to filepaths. If you ever outscale it, switching shouldn&#039;t be too painful.
+        It&#039;s probably not the sort of thing that you should get really hung up
+        on.","time":1398830396,"resto":41658861},{"no":41663129,"now":"04\/30\/14(Wed)00:30:15","name":"Anonymous","com":"<a
+        href=\"#p41662709\" class=\"quotelink\">&gt;&gt;41662709<\/a><br>They already
+        know the size of the tree. They want a method for working out the appropriate
+        scaling factor. Someone replied with a solution for the length scale factor,
+        but the whole thing is a lot less stupid if you just transform the co-ordinates,
+        treating the root as the origin and maintaining aspect ratio by applying the
+        largest transformation required horizontally and vertically, instead of doing
+        it based on length. Of course, it depends on how it&#039;s coded, but presumably
+        those branches are defined in terms of a line between two specified points.","time":1398832215,"resto":41658861},{"no":41664392,"now":"04\/30\/14(Wed)02:14:55","name":"Anonymous","com":"One
+        small step for a man<br>One giant leap for trying to parse multi-byte characters<br>Although
+        I guess UTF-8 isn&#039;t THAT bad","filename":"2014-04-30-011340_728x466_scrot","ext":".png","w":728,"h":466,"tn_w":125,"tn_h":80,"tim":1398838495893,"time":1398838495,"md5":"U0S+\/gAcN+22LK\/zLufwVQ==","fsize":23372,"resto":41658861},{"no":41664426,"now":"04\/30\/14(Wed)02:18:34","name":"Anonymous","com":"<a
+        href=\"#p41661072\" class=\"quotelink\">&gt;&gt;41661072<\/a><br>sizeMod =
+        1 \/ max(width, height)","time":1398838714,"resto":41658861},{"no":41664470,"now":"04\/30\/14(Wed)02:22:20","name":"Anonymous","com":"What
+        do you do when you can&#039;t motivate yourself to program?<br><br>No ideas
+        for projects, too intimidated by choice to learn, etc.","time":1398838940,"resto":41658861},{"no":41664482,"now":"04\/30\/14(Wed)02:23:23","name":"Anonymous","com":"<a
+        href=\"#p41664470\" class=\"quotelink\">&gt;&gt;41664470<\/a><br>Do some of
+        those: http:\/\/rosettacode.org\/wiki\/Categor<wbr>y:Programming_Tasks","time":1398839003,"resto":41658861},{"no":41664485,"now":"04\/30\/14(Wed)02:23:43","name":"Anonymous","com":"<a
+        href=\"#p41664392\" class=\"quotelink\">&gt;&gt;41664392<\/a><br>use a library
+        bro<br>don&#039;t do it yourself","time":1398839023,"resto":41658861},{"no":41664497,"now":"04\/30\/14(Wed)02:25:11","name":"Anonymous","com":"<a
+        href=\"#p41664485\" class=\"quotelink\">&gt;&gt;41664485<\/a><br>But anon
+        I have NIH<br>I&#039;m incurable<br>(don&#039;t worry it&#039;s not sexually
+        transmittable)","time":1398839111,"resto":41658861},{"no":41664538,"now":"04\/30\/14(Wed)02:28:56","name":"Anonymous","com":"<a
+        href=\"#p41664482\" class=\"quotelink\">&gt;&gt;41664482<\/a><br>I practice
+        enough, though. What I&#039;d like is something productive, and after a while
+        it gets tiring maintaining your old script set.<br>I&#039;ve been meaning
+        to expand my language list beyond the usual dynamic scripting tools, but C
+        feels ancient, C++ is a headache to read, Haskell makes my brain hurt and
+        Lisp will probably be useless to me. I can&#039;t shake these dumbass first
+        impressions.","time":1398839336,"resto":41658861},{"no":41664542,"now":"04\/30\/14(Wed)02:29:46","name":"Anonymous","com":"<pre
+        class=\"prettyprint\">$file = &quot;<a href=\"https:\/\/i.4cdn.org\/g\/1398815408707.png&quot;\"
+        target=\"_blank\">https:\/\/i.4cdn.org\/g\/1398815408707.<wbr>png&quot;<\/a><br>$save
+        = @ScriptDir &amp; &quot;\\Downloads\\pics&quot;<br>$iSize = InetGetSize ($file,
+        1)<br>;Download $file, save it to $save. Force a reload (1) and make it download
+        in the background (1).<br>$iHandle = InetGet ($file, $save, 1, 1)<br>Do<br>ToolTip
+        (&quot;Downloaded &quot; &amp; InetGetInfo ($iHandle, 0) &amp; &quot;\/&quot;
+        &amp; $iSize &amp; &quot; bytes&quot;, 0, 0, &quot;Download Status&quot;)<br>Sleep
+        (100)<br>Until InetGetInfo ($iHandle, 2)<br>InetClose ($iHandle)<\/pre><br><br>Trying
+        to get this i.s working but having bull shit trouble, dont use this it&#039;ll
+        run infinitely and fuck up your future downloads till you restart","time":1398839386,"resto":41658861},{"no":41665080,"now":"04\/30\/14(Wed)03:25:00","name":"Anonymous","com":"Is
+        there something like css in xaml?<br>I want to set global style for all my
+        windows and buttons (for example Calibri font, 20px size, gray background).
+        Is this possible somehow without having to set it separately for each element
+        manually?","time":1398842700,"resto":41658861},{"no":41665098,"now":"04\/30\/14(Wed)03:27:45","name":"Anonymous","com":"<a
+        href=\"#p41661836\" class=\"quotelink\">&gt;&gt;41661836<\/a><br><span class=\"quote\">&gt;saving
+        binary files in database <\/span><br>top kek<br>Save them in the file system
+        and in db just paths to them them","time":1398842865,"resto":41658861},{"no":41665120,"now":"04\/30\/14(Wed)03:30:46","name":"Anonymous","com":"What
+        programming language do people use for AI? Im new to programming so excuse
+        me if that was a dumb question.","time":1398843046,"resto":41658861},{"no":41665123,"now":"04\/30\/14(Wed)03:31:06","name":"Anonymous","com":"Anyway
+        to integrate or dock the console output window inside the visual express main
+        window? kind of like on netbeans you have everything on one window?","time":1398843066,"resto":41658861},{"no":41665140,"now":"04\/30\/14(Wed)03:32:40","name":"Anonymous","com":"<a
+        href=\"#p41665120\" class=\"quotelink\">&gt;&gt;41665120<\/a><br>i hear lisp
+        does the job.<br><br>but i myself have no clue","time":1398843160,"resto":41658861},{"no":41665158,"now":"04\/30\/14(Wed)03:34:53","name":"Anonymous","com":"<a
+        href=\"#p41665120\" class=\"quotelink\">&gt;&gt;41665120<\/a><br>Usually PHP","time":1398843293,"resto":41658861},{"no":41665203,"now":"04\/30\/14(Wed)03:40:42","name":"Anonymous","com":"<a
+        href=\"#p41665158\" class=\"quotelink\">&gt;&gt;41665158<\/a><br>I thought
+        PHP was for websites and stuff like that? also would this be very hard to
+        do? https:\/\/www.youtube.com\/watch?v=FcW<wbr>pJq-4VuQ","time":1398843642,"resto":41658861},{"no":41665229,"now":"04\/30\/14(Wed)03:43:40","name":"Anonymous","com":"<a
+        href=\"#p41665120\" class=\"quotelink\">&gt;&gt;41665120<\/a><br>Lisp and
+        Prolog.<br>Sometimes dorks use C++, Python, or Java.a","time":1398843820,"resto":41658861},{"no":41665240,"now":"04\/30\/14(Wed)03:45:22","name":"Anonymous","com":"<a
+        href=\"#p41665203\" class=\"quotelink\">&gt;&gt;41665203<\/a><br>Not really,
+        you just parse the stuff from the motion sensor <br>Hardest thing would be
+        soldering and putting together the hardware","time":1398843922,"resto":41658861},{"no":41665253,"now":"04\/30\/14(Wed)03:47:18","name":"Anonymous","com":"<a
+        href=\"#p41665203\" class=\"quotelink\">&gt;&gt;41665203<\/a><br>That person
+        is a troll.","time":1398844038,"resto":41658861},{"no":41665265,"now":"04\/30\/14(Wed)03:48:34","name":"Anonymous","com":"<a
+        href=\"#p41665229\" class=\"quotelink\">&gt;&gt;41665229<\/a><br>Stop saying
+        shit, Lisp and Prolog were used a long time ago for AI, but now these languages
+        are totally deprecated.<br><br><a href=\"#p41665120\" class=\"quotelink\">&gt;&gt;41665120<\/a><br>C++,
+        Python, C, Java","time":1398844114,"resto":41658861},{"no":41665274,"now":"04\/30\/14(Wed)03:49:58","name":"Anonymous","com":"<a
+        href=\"#p41665080\" class=\"quotelink\">&gt;&gt;41665080<\/a><br>Or ideally
+        this, is it possible to make the window layout in html + css and then actually
+        bind the c# code it self to it like you do to xaml? So the user won&#039;t
+        be able to see any difference when he starts the app","time":1398844198,"resto":41658861},{"no":41665287,"now":"04\/30\/14(Wed)03:51:54","name":"Anonymous","com":"<a
+        href=\"#p41665265\" class=\"quotelink\">&gt;&gt;41665265<\/a><br><span class=\"quote\">&gt;Lisp<\/span><br><span
+        class=\"quote\">&gt;deprecated<\/span><br><span class=\"quote\">&gt;C<\/span><br><span
+        class=\"quote\">&gt;less deprecated than Lisp<\/span><br>I think you&#039;re
+        going to have to get out.","time":1398844314,"resto":41658861},{"no":41665304,"now":"04\/30\/14(Wed)03:53:23","name":"Anonymous","com":"<a
+        href=\"#p41665265\" class=\"quotelink\">&gt;&gt;41665265<\/a><br><span class=\"quote\">&gt;totally<\/span><br>like,
+        totally, dude","time":1398844403,"resto":41658861},{"no":41665381,"now":"04\/30\/14(Wed)04:02:45","name":"Anonymous","com":"<a
+        href=\"#p41665265\" class=\"quotelink\">&gt;&gt;41665265<\/a><br>Deprecated
+        doesn&#039;t mean &quot;widely used.&quot; There are good reasons why Prolog
+        and Lisp are good for AI. Python&#039;s only good because of the amount of
+        libraries, and it also has an academic niche. I have no idea where you&#039;re
+        getting C++, C and Java from. You would be laughed out at any half serious
+        computational intelligence conference for answers like that.","time":1398844965,"resto":41658861},{"no":41665394,"now":"04\/30\/14(Wed)04:03:46","name":"Anonymous","com":"<a
+        href=\"#p41665381\" class=\"quotelink\">&gt;&gt;41665381<\/a><br><span class=\"quote\">&gt;Deprecated
+        doesn&#039;t mean &quot;widely used.&quot;<\/span><br>meant *&quot;not widely
+        used&quot;, of course.","time":1398845026,"resto":41658861},{"no":41665406,"now":"04\/30\/14(Wed)04:05:21","name":"Anonymous","com":"<a
+        href=\"#p41658921\" class=\"quotelink\">&gt;&gt;41658921<\/a><br><span class=\"quote\">&gt;he&#039;s
+        on #haskell<\/span><br><br>Yes<br><br><span class=\"quote\">&gt;and here without
+        trip<\/span><br><br>Rarely.<br><br><span class=\"quote\">&gt;but he wasn&#039;t
+        picked for gSOC to do a haskell project so he&#039;s a faggot<\/span><br><br>Yep.
+        It seemed like my project would get in but it didn&#039;t manage in the end.
+        Shame. I&#039;ll still do the project but it certainly won&#039;t be in the
+        same timescale as it would during GSOC.","time":1398845121,"resto":41658861},{"no":41665420,"now":"04\/30\/14(Wed)04:07:11","name":"Anonymous","com":"<a
+        href=\"#p41665406\" class=\"quotelink\">&gt;&gt;41665406<\/a><br><span class=\"quote\">&gt;gsoc<\/span><br><span
+        class=\"quote\">&gt;getting roped in by the botnet<\/span>","time":1398845231,"resto":41658861},{"no":41665451,"now":"04\/30\/14(Wed)04:11:07","name":"Anonymous","com":"How
+        do I learn into assembly, \/g\/?<br><br>I&#039;ve looked at a bunch of tutorials
+        and reference sites but they all contradict each other e.g. &quot;Don&#039;t
+        learn ASM on x86 it&#039;s too hard, learn on MIPS instead&quot; vs. &quot;ASM
+        on MIPS is useless, learn x86 ASM so you can actually use it for practical
+        stuff&quot;.<br><br>So what does \/g\/ recommend for learning assembly?<br><br>Platform:
+        x86 \/ MIPS \/ ARM \/ Other?<br><br>OS: Windows \/ Linux \/ Other?<br><br>Toolset
+        for above OS (e.g. YASM vs. FASM, etc)?<br><br>Debugging tools (e.g. just
+        GDB, gui interface to GDB, other?)?<br><br>Recommended utorials \/ books \/
+        guides?","time":1398845467,"resto":41658861},{"no":41665466,"now":"04\/30\/14(Wed)04:13:37","name":"Anonymous","com":"<a
+        href=\"#p41665451\" class=\"quotelink\">&gt;&gt;41665451<\/a><br>If you want
+        to be employed in the programming field don&#039;t learn assembly at all it&#039;s
+        useless everything depends on high level languages nowadays and will even
+        more so in the future<br>Assembly is just waste of time, there is a reason
+        why higher level languages were developed and do most of the low level stuff
+        for you","time":1398845617,"resto":41658861},{"no":41665469,"now":"04\/30\/14(Wed)04:13:43","name":"Anonymous","com":"<a
+        href=\"#p41665120\" class=\"quotelink\">&gt;&gt;41665120<\/a><br>I think css
+        helps with color. I&#039;m not sure.","time":1398845623,"resto":41658861},{"no":41665490,"now":"04\/30\/14(Wed)04:15:45","name":"Anonymous","com":"<a
+        href=\"#p41665469\" class=\"quotelink\">&gt;&gt;41665469<\/a><br>Sorry for
+        this post you guys, please don&#039;t leave.","time":1398845745,"resto":41658861},{"no":41665504,"now":"04\/30\/14(Wed)04:17:35","name":"Anonymous","com":"<a
+        href=\"#p41665466\" class=\"quotelink\">&gt;&gt;41665466<\/a><br>I&#039;m
+        not a programmer by trade (network\/systems admin), I just want to learn this
+        stuff for fun and to better understand the software I work with.","time":1398845855,"resto":41658861},{"no":41665506,"now":"04\/30\/14(Wed)04:18:02","name":"Anonymous","com":"I
+        was trying to write some code that could detect when the default colour profile
+        changes on Windows, and load the new one, but I gave up.<br><br>The actual
+        change detection was easy: just watch the ICM registry key. The hard part
+        was actually loading the new profile. Windows caches the old colour profile
+        when you make a new DC on the same screen and the Wcs* functions have millions
+        of confusing parameters, which are practically undocumented. Totally not worth
+        it, especially since every FOSS project I could find that does colour management
+        (Chromium, Firefox, GIMP) just uses the system-wide profile for all screens
+        and doesn&#039;t reload it at all. Actually intelligently figuring out which
+        profile to use would be a departure from the norm.<br><br>Windows is horrible.","time":1398845882,"resto":41658861},{"no":41665533,"now":"04\/30\/14(Wed)04:22:32","name":"Anonymous","com":"<a
+        href=\"#p41665451\" class=\"quotelink\">&gt;&gt;41665451<\/a><br>Learn a RISC
+        assembly first (MIPS, ARM).<br>Seriously, it a fuckload easier and you&#039;re
+        less likely to get in over your head.<br>Then once you&#039;ve &#039;mastered&#039;
+        than, move onto a CISC assembly like x86.","time":1398846152,"resto":41658861}]}'
+    http_version: 
+  recorded_at: Wed, 30 Apr 2014 08:31:26 GMT
+recorded_with: VCR 2.9.0
