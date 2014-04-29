@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://a.4cdn.org/boards.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Wed, 30 Apr 2014 08:17:46 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Sun, 20 Apr 2014 05:12:58 GMT
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Expires:
+      - "-1"
+      Cf-Ray:
+      - 12324e0a28a205bb-ARN
+    body:
+      encoding: UTF-8
+      string: '{"boards":[{"board":"3","title":"3DCG","ws_board":1,"per_page":15,"pages":10},{"board":"a","title":"Anime
+        \u0026 Manga","ws_board":1,"per_page":15,"pages":10},{"board":"adv","title":"Advice","ws_board":1,"per_page":15,"pages":10},{"board":"an","title":"Animals
+        \u0026 Nature","ws_board":1,"per_page":15,"pages":10},{"board":"asp","title":"Alternative
+        Sports","ws_board":1,"per_page":15,"pages":10},{"board":"b","title":"Random","ws_board":0,"per_page":15,"pages":10},{"board":"biz","title":"Business
+        \u0026 Finance","ws_board":1,"per_page":15,"pages":10},{"board":"c","title":"Anime\/Cute","ws_board":1,"per_page":15,"pages":10},{"board":"cgl","title":"Cosplay
+        \u0026 EGL","ws_board":1,"per_page":15,"pages":10},{"board":"ck","title":"Food
+        \u0026 Cooking","ws_board":1,"per_page":15,"pages":10},{"board":"cm","title":"Cute\/Male","ws_board":1,"per_page":15,"pages":10},{"board":"co","title":"Comics
+        \u0026 Cartoons","ws_board":1,"per_page":15,"pages":10},{"board":"d","title":"Hentai\/Alternative","ws_board":0,"per_page":15,"pages":10},{"board":"diy","title":"Do-It-Yourself","ws_board":1,"per_page":15,"pages":10},{"board":"e","title":"Ecchi","ws_board":0,"per_page":15,"pages":10},{"board":"f","title":"Flash","ws_board":0,"per_page":30,"pages":1},{"board":"fa","title":"Fashion","ws_board":1,"per_page":15,"pages":10},{"board":"fit","title":"Fitness","ws_board":1,"per_page":15,"pages":10},{"board":"g","title":"Technology","ws_board":1,"per_page":15,"pages":10},{"board":"gd","title":"Graphic
+        Design","ws_board":1,"per_page":15,"pages":10},{"board":"gif","title":"Adult
+        GIF","ws_board":0,"per_page":15,"pages":10},{"board":"h","title":"Hentai","ws_board":0,"per_page":15,"pages":10},{"board":"hc","title":"Hardcore","ws_board":0,"per_page":15,"pages":10},{"board":"hm","title":"Handsome
+        Men","ws_board":0,"per_page":15,"pages":10},{"board":"hr","title":"High Resolution","ws_board":0,"per_page":15,"pages":10},{"board":"i","title":"Oekaki","ws_board":0,"per_page":15,"pages":10},{"board":"ic","title":"Artwork\/Critique","ws_board":0,"per_page":15,"pages":10},{"board":"int","title":"International","ws_board":1,"per_page":15,"pages":10},{"board":"jp","title":"Otaku
+        Culture","ws_board":1,"per_page":15,"pages":10},{"board":"k","title":"Weapons","ws_board":1,"per_page":15,"pages":10},{"board":"lgbt","title":"LGBT","ws_board":1,"per_page":15,"pages":10},{"board":"lit","title":"Literature","ws_board":1,"per_page":15,"pages":10},{"board":"m","title":"Mecha","ws_board":1,"per_page":15,"pages":10},{"board":"mlp","title":"Pony","ws_board":1,"per_page":15,"pages":10},{"board":"mu","title":"Music","ws_board":1,"per_page":15,"pages":10},{"board":"n","title":"Transportation","ws_board":1,"per_page":15,"pages":10},{"board":"o","title":"Auto","ws_board":1,"per_page":15,"pages":10},{"board":"out","title":"Outdoors","ws_board":1,"per_page":15,"pages":10},{"board":"p","title":"Photography","ws_board":1,"per_page":15,"pages":10},{"board":"po","title":"Papercraft
+        \u0026 Origami","ws_board":1,"per_page":15,"pages":10},{"board":"pol","title":"Politically
+        Incorrect","ws_board":0,"per_page":15,"pages":10},{"board":"r","title":"Request","ws_board":0,"per_page":15,"pages":10},{"board":"r9k","title":"ROBOT9001","ws_board":0,"per_page":15,"pages":10},{"board":"s","title":"Sexy
+        Beautiful Women","ws_board":0,"per_page":15,"pages":10},{"board":"s4s","title":"Shit
+        4chan Says","ws_board":0,"per_page":15,"pages":10},{"board":"sci","title":"Science
+        \u0026 Math","ws_board":1,"per_page":15,"pages":10},{"board":"soc","title":"Cams
+        \u0026 Meetups","ws_board":0,"per_page":15,"pages":10},{"board":"sp","title":"Sports","ws_board":1,"per_page":15,"pages":10},{"board":"t","title":"Torrents","ws_board":0,"per_page":15,"pages":10},{"board":"tg","title":"Traditional
+        Games","ws_board":1,"per_page":15,"pages":10},{"board":"toy","title":"Toys","ws_board":1,"per_page":15,"pages":10},{"board":"trv","title":"Travel","ws_board":1,"per_page":15,"pages":10},{"board":"tv","title":"Television
+        \u0026 Film","ws_board":1,"per_page":15,"pages":10},{"board":"u","title":"Yuri","ws_board":0,"per_page":15,"pages":10},{"board":"v","title":"Video
+        Games","ws_board":1,"per_page":15,"pages":10},{"board":"vg","title":"Video
+        Game Generals","ws_board":1,"per_page":15,"pages":10},{"board":"vp","title":"Pok\u00e9mon","ws_board":1,"per_page":15,"pages":10},{"board":"vr","title":"Retro
+        Games","ws_board":1,"per_page":15,"pages":10},{"board":"w","title":"Anime\/Wallpapers","ws_board":1,"per_page":15,"pages":10},{"board":"wg","title":"Wallpapers\/General","ws_board":0,"per_page":15,"pages":10},{"board":"wsg","title":"Worksafe
+        GIF","ws_board":1,"per_page":15,"pages":10},{"board":"x","title":"Paranormal","ws_board":1,"per_page":15,"pages":10},{"board":"y","title":"Yaoi","ws_board":0,"per_page":15,"pages":10}]}'
+    http_version: 
+  recorded_at: Wed, 30 Apr 2014 08:17:46 GMT
+recorded_with: VCR 2.9.0

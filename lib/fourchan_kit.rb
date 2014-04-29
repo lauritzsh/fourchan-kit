@@ -1,5 +1,5 @@
 require "fourchan_kit/version"
+require "fourchan_kit/api"
 
 module FourchanKit
-  # Your code goes here...
 end
