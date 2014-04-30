@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe FourchanKit::Thread, :vcr do
   before(:each) do
     VCR.use_cassette 'api/posts' do
