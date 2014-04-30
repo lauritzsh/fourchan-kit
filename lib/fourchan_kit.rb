@@ -1,5 +1,7 @@
 require "fourchan_kit/version"
 require "fourchan_kit/api"
+require "fourchan_kit/thread"
+require "fourchan_kit/post"
 
 module FourchanKit
   $fourchan_boards = []
