@@ -83,6 +83,44 @@ module FourchanKit
       end
     end
 
+    ##
+    # Check the thread for new images every x seconds.
+    #
+    # - The refresh rate is determined by options[:refresh] and is an integer.  
+    # - The time to lurk is determined by options[:timeout] and is an integer.
+    #
+    # @param link [URL] the thread to lurk
+    def self.lurk(link, options = {})
+      puts "Started lurking #{link}"
+
+      downloaded = []
+      board, thread_no = get_info(link)
+      thread = Fourgem::Thread.new(board, thread_no)
+
+      download_image(thread.op.image_link, options.dup)
+
+      begin
+        timeout(options[:timeout]) do
+          loop do
+            puts "Checking for images" unless options[:quiet]
+            new = thread.fetch_replies
+
+            (new - downloaded).each do |post|
+              options[:fsize] = post.fsize
+              download_image(post.image_link, options.dup) if post.image_link
+
+              downloaded << post
+            end
+
+            sleep(options[:refresh])
+          end
+        end
+      rescue Timeout::Error
+        puts "Timeout after #{options[:timeout]} second(s)"
+        exit 0
+      end
+    end
+
     private
     def self.create_dir(directory)
       FileUtils.mkdir_p(directory) unless File.exists?(directory)
