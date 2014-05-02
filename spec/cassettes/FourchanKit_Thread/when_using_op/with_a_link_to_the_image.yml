@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://a.4cdn.org/g/thread/41706090.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 02 May 2014 18:35:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Fri, 02 May 2014 18:05:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Expires:
+      - "-1"
+      Cf-Ray:
+      - 1246513f55a10a4e-ARN
+    body:
+      encoding: UTF-8
+      string: '{"posts":[{"no":41706090,"now":"05\/02\/14(Fri)13:29:34","name":"Anonymous","com":"How
+        long did your initial foray into programming last? Mine was a short expedition
+        with C++ about five years ago, less than a month in duration, then I departed
+        again with Python about two years later, this time going for just over a month.
+        Currently voyaging with C, have been for three months approaching 5 hours
+        a day. The reason for the failure of my first two ventures I conjecture is
+        that I set out with the intention of learning to program rather than trying
+        to build something, meaning forcible consumption of material that started
+        quite dry and became quickly anhydrous. How&#039;d you do?","filename":"bwk","ext":".jpg","w":314,"h":370,"tn_w":212,"tn_h":250,"tim":1399051774807,"time":1399051774,"md5":"WuaQB57Lmj+lEofqkxts8Q==","fsize":21672,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"how-long-did-your-initial-foray-into-programming","replies":5,"images":1},{"no":41706231,"now":"05\/02\/14(Fri)13:38:17","name":"Anonymous","filename":"pic","ext":".jpg","w":250,"h":354,"tn_w":88,"tn_h":125,"tim":1399052297446,"time":1399052297,"md5":"GGRmUnk5RV+LLwTZzpibZw==","fsize":15582,"resto":41706090},{"no":41706377,"now":"05\/02\/14(Fri)13:48:21","name":"Anonymous","com":"i
+        remember having a programming class in grade 2 or 3 using logo<br><br>if i
+        had just stuck with moving that stupid turtle around, i could have branched
+        out and been a billionaire by now<br><br>god damn it","time":1399052901,"resto":41706090},{"no":41706458,"now":"05\/02\/14(Fri)13:52:50","name":"Anonymous","com":"<a
+        href=\"#p41706377\" class=\"quotelink\">&gt;&gt;41706377<\/a><br>think about
+        all the turtles you could around by now","time":1399053170,"resto":41706090},{"no":41706513,"now":"05\/02\/14(Fri)13:57:25","name":"Anonymous","com":"<a
+        href=\"#p41706090\" class=\"quotelink\">&gt;&gt;41706090<\/a><br>learned enough
+        javascript to to display a random pornographic image whenever I opened a customized
+        homepage when I was a babby<br><br>played with python 2.X and thought it was
+        cool that it had built in support for memory-limited-length numbers<br><br>a
+        few years later tried PHP and it made me hate programming<br><br>now I&#039;m
+        learning C and have been going strong for about 30 minutes now","time":1399053445,"resto":41706090},{"no":41706626,"now":"05\/02\/14(Fri)14:05:03","name":"Anonymous","com":"I
+        started with a semester of BASIC in high school. I didn&#039;t program again
+        for about 5 years because I didn&#039;t own a PC, now I program daily. Doing
+        it now  actually.","time":1399053903,"resto":41706090}]}'
+    http_version: 
+  recorded_at: Fri, 02 May 2014 18:35:13 GMT
+recorded_with: VCR 2.9.0

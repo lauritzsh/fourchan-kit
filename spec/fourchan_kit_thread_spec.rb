@@ -2,21 +2,19 @@ require 'spec_helper'
 
 describe FourchanKit::Thread, :vcr do
   before(:each) do
-    VCR.use_cassette 'api/posts' do
-      @thread = FourchanKit::Thread.new 'g', 41658861
-    end
+    @thread = FourchanKit::Thread.new 'g', 41706090
   end
 
   it 'should have posts' do
-    @thread.posts.length.should == 69
+    @thread.posts.length.should == 6
   end
 
   it 'should have replies' do
-    @thread.replies.length.should == 68
+    @thread.replies.length.should == 5
   end
 
   it 'should have some images' do
-    @thread.images.length.should == 8
+    @thread.images.length.should == 2
   end
 
   it 'and return nothing if poster didn\'t submit one' do
@@ -29,7 +27,7 @@ describe FourchanKit::Thread, :vcr do
     end
 
     it 'with a link to the image'  do
-      @thread.op.image_link.should == 'http://i.4cdn.org/g/1398815408707.png'
+      @thread.op.image_link.should == 'http://i.4cdn.org/g/1399051774807.jpg'
     end
   end
 end

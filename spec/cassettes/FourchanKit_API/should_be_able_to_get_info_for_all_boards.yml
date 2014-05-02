@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Wed, 30 Apr 2014 08:17:46 GMT
+      - Fri, 02 May 2014 19:08:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -37,7 +37,7 @@ http_interactions:
       Expires:
       - "-1"
       Cf-Ray:
-      - 12324e0a28a205bb-ARN
+      - 124681ab78770a48-ARN
     body:
       encoding: UTF-8
       string: '{"boards":[{"board":"3","title":"3DCG","ws_board":1,"per_page":15,"pages":10},{"board":"a","title":"Anime
@@ -65,5 +65,5 @@ http_interactions:
         Games","ws_board":1,"per_page":15,"pages":10},{"board":"w","title":"Anime\/Wallpapers","ws_board":1,"per_page":15,"pages":10},{"board":"wg","title":"Wallpapers\/General","ws_board":0,"per_page":15,"pages":10},{"board":"wsg","title":"Worksafe
         GIF","ws_board":1,"per_page":15,"pages":10},{"board":"x","title":"Paranormal","ws_board":1,"per_page":15,"pages":10},{"board":"y","title":"Yaoi","ws_board":0,"per_page":15,"pages":10}]}'
     http_version: 
-  recorded_at: Wed, 30 Apr 2014 08:17:46 GMT
+  recorded_at: Fri, 02 May 2014 19:08:16 GMT
 recorded_with: VCR 2.9.0

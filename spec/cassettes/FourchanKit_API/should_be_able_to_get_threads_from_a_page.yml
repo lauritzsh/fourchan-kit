@@ -1,0 +1,274 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://a.4cdn.org/g/1.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 02 May 2014 19:08:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Fri, 02 May 2014 19:08:17 GMT
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Expires:
+      - "-1"
+      Cf-Ray:
+      - 124681b2d6df0a4e-ARN
+    body:
+      encoding: UTF-8
+      string: '{"threads":[{"posts":[{"no":39894014,"sticky":1,"closed":1,"now":"01\/27\/14(Mon)12:07","name":"Anonymous","com":"The
+        \/g\/ Wiki:<br><a href=\"http:\/\/wiki.installgentoo.com\/\">http:\/\/wiki.installgentoo.com\/<\/a><br><br>\/g\/
+        is for the discussion of technology and related topics.<br>\/g\/ is <b><u>NOT<\/u><\/b>
+        your personal tech support team or personal consumer review site.<br><br>For
+        tech support\/issues with computers:<br><a href=\"https:\/\/startpage.com\/\">https:\/\/startpage.com\/<\/a>
+        or <a href=\"https:\/\/duckduckgo.com\">https:\/\/duckduckgo.com<\/a> (i.e.,
+        fucking google it)<br><a href=\"https:\/\/stackexchange.com\/\">https:\/\/stackexchange.com\/<\/a><br><a
+        href=\"http:\/\/www.logicalincrements.com\/\">http:\/\/www.logicalincrements.com\/<\/a><br><br>You
+        can also search the catalog for a specific term by using:<br><a href=\"https:\/\/boards.4chan.org\/g\/searchword\"><a
+        href=\"https:\/\/boards.4chan.org\/g\/searchword\" target=\"_blank\">https:\/\/boards.4chan.org\/g\/searchword<\/a><\/a><br><br>Always
+        check the catalog before creating a thread:<br><a href=\"https:\/\/boards.4chan.org\/g\/catalog\">>>>\/g\/catalog<\/a><br><br>Please
+        check the rules before you post:<br><a href=\"https:\/\/www.4chan.org\/rules\"><a
+        href=\"https:\/\/www.4chan.org\/rules\" target=\"_blank\">https:\/\/www.4chan.org\/rules<\/a><\/a><br><i>Begging
+        for cryptocurrency is against the rules!<\/i><br><br>To use the Code tag,
+        book-end your body of code with:<br>&#91;code] and &#91;\/code]<br>Abuse of
+        the code tag may result in a ban.","filename":"RMS","ext":".png","w":450,"h":399,"tn_w":250,"tn_h":221,"tim":1390842451744,"time":1390842451,"md5":"cEeDnXfLWSsu3+A\/HIZkuw==","fsize":299699,"resto":0,"capcode":"mod","semantic_url":"the-g-wiki-g-is-for-the-discussion-of-technology","replies":0,"images":0}]},{"posts":[{"no":41707507,"now":"05\/02\/14(Fri)15:01:20","name":"Anonymous","com":"What
+        is the purpose of this port on the back of my laptop?","filename":"Wat do","ext":".jpg","w":480,"h":640,"tn_w":187,"tn_h":250,"tim":1399057280031,"time":1399057280,"md5":"RPQWOrvoeNyfLKfhzS0Q6Q==","fsize":145059,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"what-is-the-purpose-of-this-port-on-the-back-of","replies":7,"images":0,"omitted_posts":2,"omitted_images":0},{"no":41707548,"now":"05\/02\/14(Fri)15:04:23","name":"Anonymous","com":"You
+        got your answers, OP.  Delete this thread while you can.  It will evolve into
+        a fight on why DisplayPort is superior.  There are arguments but the point
+        is that it will bring board quality down.","time":1399057463,"resto":41707507},{"no":41707572,"now":"05\/02\/14(Fri)15:05:52","name":"Anonymous","com":"ah,
+        I see... is it possible to connect to a hdtv with only this port?","time":1399057552,"resto":41707507},{"no":41707587,"now":"05\/02\/14(Fri)15:06:34","name":"Anonymous","com":"<a
+        href=\"#p41707548\" class=\"quotelink\">&gt;&gt;41707548<\/a><br><br>Before
+        he deletes this thread I have a question, is there a difference between standard
+        and mini displayport (except for the obvious).","time":1399057594,"resto":41707507},{"no":41707604,"now":"05\/02\/14(Fri)15:07:27","name":"Anonymous","com":"<a
+        href=\"#p41707507\" class=\"quotelink\">&gt;&gt;41707507<\/a><br>I know that
+        laptop<br>Is it a E6400\/6410?","time":1399057647,"resto":41707507},{"no":41707616,"now":"05\/02\/14(Fri)15:08:16","name":"Anonymous","com":"<a
+        href=\"\/g\/thread\/41706976#p41707537\" class=\"quotelink\">&gt;&gt;41707537<\/a><br>Why
+        does everyone on \/g\/ hate HDMI?","time":1399057696,"resto":41707507}]},{"posts":[{"no":41705152,"now":"05\/02\/14(Fri)12:18:37","name":"Anonymous","com":"Hey
+        \/g\/, what monitors are you using?","filename":"benq","ext":".jpg","w":1125,"h":1500,"tn_w":187,"tn_h":250,"tim":1399047517101,"time":1399047517,"md5":"eh4yP6MICHzvLy8\/C2g0nw==","fsize":71502,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"hey-g-what-monitors-are-you-using","replies":92,"images":22,"omitted_posts":87,"omitted_images":21},{"no":41707571,"now":"05\/02\/14(Fri)15:05:49","name":"Anonymous","com":"<a
+        href=\"#p41705273\" class=\"quotelink\">&gt;&gt;41705273<\/a><br>snap, u2410
+        x 2. only thing I can complain about really is the response time, and the
+        lack of physical buttons. as I have to swap inputs between my nix machine,
+        laptop and PC. <br><br><span class=\"quote\">&gt; inb4 KVM switch. <\/span><br>moving
+        my office soon. I&#039;ll have more room, so more monitors.","time":1399057549,"resto":41705152},{"no":41707580,"now":"05\/02\/14(Fri)15:06:16","name":"Anonymous","com":"<a
+        href=\"#p41707550\" class=\"quotelink\">&gt;&gt;41707550<\/a><br>and how long
+        will youi have to wait for hardware that can readily run it well.","time":1399057576,"resto":41705152},{"no":41707591,"now":"05\/02\/14(Fri)15:06:38","name":"Anonymous","com":"HP
+        w1907","time":1399057598,"resto":41705152},{"no":41707603,"now":"05\/02\/14(Fri)15:07:24","name":"Anonymous","com":"<a
+        href=\"#p41707540\" class=\"quotelink\">&gt;&gt;41707540<\/a><br>A used Ultrasharp
+        in the specified size, preferably IPS or VA rather than TN.<br><br><a href=\"#p41707568\"
+        class=\"quotelink\">&gt;&gt;41707568<\/a><br>Oh yeah and some fuck-wit on
+        the design board decided that touch buttons aren&#039;t total shit, so no
+        physical buttons on the newest models either. Not that they are used that
+        much, but it still pisses me off.","time":1399057644,"resto":41705152},{"no":41707614,"now":"05\/02\/14(Fri)15:08:04","name":"Anonymous","com":"<a
+        href=\"#p41707278\" class=\"quotelink\">&gt;&gt;41707278<\/a><br><span class=\"quote\">&gt;contrast
+        ratio <\/span><br><span class=\"quote\">&gt;color reproduction <\/span><br><br>Gif
+        seriously retarded","time":1399057684,"resto":41705152}]},{"posts":[{"no":41701877,"now":"05\/02\/14(Fri)07:22:44","name":"Anonymous","com":"What
+        should we expect in the new rMbp  which will most likely be released in June\/September?","filename":"Ascani_MacBook15-25","ext":".jpg","w":1200,"h":675,"tn_w":250,"tn_h":140,"tim":1399029764324,"time":1399029764,"md5":"R2C\/VvsgYeNeOpgtelf62w==","fsize":139502,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"what-should-we-expect-in-the-new-rmbp-which-will","replies":145,"images":22,"omitted_posts":140,"omitted_images":22},{"no":41707513,"now":"05\/02\/14(Fri)15:01:47","name":"Anonymous","com":"<a
+        href=\"#p41707453\" class=\"quotelink\">&gt;&gt;41707453<\/a><br>Yes but it&#039;s
+        just the same things with incremental improvements. Not fuck you world, this
+        thing is an iPad, buy it bitches! What&#039;s it for? Magic stuff and junk,
+        I dunno but it&#039;s slightly shiny..<br><br>More this computer is now 6%
+        thinner and has 18% more zzzzzzzzzzzzzzzzzzzzzzzz.","time":1399057307,"resto":41701877},{"no":41707514,"now":"05\/02\/14(Fri)15:01:47","name":"Anonymous","com":"<a
+        href=\"#p41707481\" class=\"quotelink\">&gt;&gt;41707481<\/a><br>That\u2019s
+        a regular MBP (see the CD drive on the right). They didn\u2019t get the direct
+        lamination+antiglare treatment; only retina models have that.","time":1399057307,"resto":41701877},{"no":41707547,"now":"05\/02\/14(Fri)15:04:23","name":"Anonymous","com":"<a
+        href=\"#p41707513\" class=\"quotelink\">&gt;&gt;41707513<\/a><br>yeah you&#039;re
+        right. definite stuff in the near future is some sort of watch\/band that
+        tracks all your vitals and stuff. an apple hdtv is possible in the future
+        too but i think they need to time that to when they can offer a new display
+        tech faster than the rest","time":1399057463,"resto":41701877},{"no":41707594,"now":"05\/02\/14(Fri)15:06:56","name":"Anonymous","com":"<a
+        href=\"#p41702045\" class=\"quotelink\">&gt;&gt;41702045<\/a><br><span class=\"quote\">&gt;-Possible
+        11&quot; retina model<\/span><br>I severely doubt it.","time":1399057616,"resto":41701877},{"no":41707612,"now":"05\/02\/14(Fri)15:08:03","name":"Anonymous","com":"<a
+        href=\"#p41707514\" class=\"quotelink\">&gt;&gt;41707514<\/a><br>here\u2019s
+        a retina for comparison<br><br><a href=\"#p41707594\" class=\"quotelink\">&gt;&gt;41707594<\/a><br>the
+        rumors are saying that the 11\u201d and 13\u201d MBAs will be axed in favor
+        of a 12\u201d rMBP","filename":"macbook-pro-retina-display-stock_1020_large_extra_large","ext":".jpg","w":450,"h":300,"tn_w":125,"tn_h":83,"tim":1399057683514,"time":1399057683,"md5":"StKIYcYJxn9p\/6Bpx9yKsg==","fsize":91506,"resto":41701877}]},{"posts":[{"no":41698791,"now":"05\/02\/14(Fri)00:14:46","name":"Anonymous","sub":"Battlestation
+        Thread","com":"Old thread at bump limit.<br><br>Post and rate.","filename":"Battlestation-v006-05-14-c2","ext":".jpg","w":1496,"h":1000,"tn_w":250,"tn_h":167,"tim":1399004086020,"time":1399004086,"md5":"DYbk\/apKog7YkpRcPdXxAA==","fsize":361919,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"battlestation-thread","replies":204,"images":56,"omitted_posts":199,"omitted_images":52},{"no":41707284,"now":"05\/02\/14(Fri)14:47:54","name":"Anonymous","com":"<a
+        href=\"#p41707252\" class=\"quotelink\">&gt;&gt;41707252<\/a><br>I like it.
+        Looks nice and broken in and not like something out of an office furniture
+        catalog.","time":1399056474,"resto":41698791},{"no":41707384,"now":"05\/02\/14(Fri)14:54:25","name":"Anonymous","com":"<a
+        href=\"#p41707252\" class=\"quotelink\">&gt;&gt;41707252<\/a><br>Shed\/10
+        but in a good way","time":1399056865,"resto":41698791},{"no":41707443,"now":"05\/02\/14(Fri)14:57:55","name":"Moneyshot","com":"<a
+        href=\"#p41707102\" class=\"quotelink\">&gt;&gt;41707102<\/a><br>Thanks to
+        you I remembered that I hadn&#039;t installed the setpoint driver for my keyboard.
+        And when I did that, my mouse sens got fucked up..<br><br><a href=\"#p41707252\"
+        class=\"quotelink\">&gt;&gt;41707252<\/a><br>How many people have you murdered?","filename":"LOGITECHMASTERRACE","ext":".jpg","w":1000,"h":329,"tn_w":125,"tn_h":41,"tim":1399057075496,"time":1399057075,"md5":"QmPykUo1p1t\/yzJy76DCUw==","fsize":506178,"resto":41698791,"trip":"!trSDZnri0s"},{"no":41707487,"now":"05\/02\/14(Fri)15:00:12","name":"Streetguru","com":"<a
+        href=\"#p41707443\" class=\"quotelink\">&gt;&gt;41707443<\/a><br>just 3","time":1399057212,"resto":41698791,"trip":"!!f+89YW5lmI5"},{"no":41707613,"now":"05\/02\/14(Fri)15:08:03","name":"Anonymous","com":"<a
+        href=\"#p41707443\" class=\"quotelink\">&gt;&gt;41707443<\/a><br> <span class=\"quote\">&gt;needing
+        software for a keyboard<\/span>","time":1399057683,"resto":41698791}]},{"posts":[{"no":41706976,"now":"05\/02\/14(Fri)14:26:26","name":"Anonymous","com":"Post
+        yfw you fell for the SSD ruse.<br><br><span class=\"quote\">&gt;aww yeah your
+        boot times will improve buddy everything will load so much faster!<\/span><br><span
+        class=\"quote\">&gt;buy expensive storage device<\/span><br><span class=\"quote\">&gt;do
+        fresh install yada yada<\/span><br><span class=\"quote\">&gt;no noticeable
+        boot time decrease (shit booted in a second on my HDD anyway)<\/span><br><span
+        class=\"quote\">&gt;install a few games<\/span><br><span class=\"quote\">&gt;arma
+        III still takes a year to load<\/span><br><span class=\"quote\">&gt;noticeable
+        texture load in on Metro 2033 (didn&#039;t happen with HDD)<\/span><br><br>Fuck
+        SSD shills, they tricked me good, I could&#039;ve spent that money on a 1TB
+        drive and still had spare change.","filename":"1313210103001","ext":".png","w":500,"h":452,"tn_w":250,"tn_h":226,"tim":1399055186876,"time":1399055186,"md5":"epNJP3Edkz1hAnxop435Lg==","fsize":74671,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"post-yfw-you-fell-for-the-ssd-ruse-aww-yeah-your","replies":71,"images":4,"omitted_posts":66,"omitted_images":4},{"no":41707578,"now":"05\/02\/14(Fri)15:06:03","name":"Anonymous","com":"<a
+        href=\"#p41707505\" class=\"quotelink\">&gt;&gt;41707505<\/a><br>I have an
+        HDD already, no way I was going to depend on solely an SSD. I use it as my
+        storage drive.","time":1399057563,"resto":41706976},{"no":41707588,"now":"05\/02\/14(Fri)15:06:35","name":"Anonymous","com":"<a
+        href=\"#p41707558\" class=\"quotelink\">&gt;&gt;41707558<\/a><br>Sorry, bro
+        your choice in SSD was a major fail, and if your saying SSD&#039;s ain&#039;t
+        worth a shit, got an entire market that speaks against ya, and honestly, there&#039;s
+        a lot more credibility in the rest of the world than you.","time":1399057595,"resto":41706976},{"no":41707602,"now":"05\/02\/14(Fri)15:07:21","name":"Anonymous","com":"<a
+        href=\"#p41707559\" class=\"quotelink\">&gt;&gt;41707559<\/a><br><br>you cannot
+        be helped","time":1399057641,"resto":41706976},{"no":41707606,"now":"05\/02\/14(Fri)15:07:37","name":"Anonymous","com":"<span
+        class=\"quote\">&gt;all these people thinking their worthless opinions matter<\/span>","time":1399057657,"resto":41706976},{"no":41707611,"now":"05\/02\/14(Fri)15:08:02","name":"Anonymous","com":"The
+        most significant performance increase I noticed was with VMWare, or virtualization
+        in general. Virtual machines are so fast now, it doesn&#039;t feel like there&#039;s
+        a host system under it. <br><br>In other areas it doesn&#039;t help that much,
+        I agree, but makes my Lenovo X200 (C2D, 4GB RAM) from 2008 feel like new.","filename":"_","ext":".jpg","w":755,"h":832,"tn_w":113,"tn_h":125,"tim":1399057682843,"time":1399057682,"md5":"0\/1NMEz\/9R9hMgp2oa50yg==","fsize":35844,"resto":41706976}]},{"posts":[{"no":41700091,"now":"05\/02\/14(Fri)02:42:44","name":"Anonymous","sub":"Yellow
+        pufferfish appreciation thread","com":"Anon, that weak WinXP machine you have...
+        can I install OpenBSD on it?","filename":"2000px-OpenBSD_Logo_-_Cartoon_Puffy_with_textual_logo_below.svg","ext":".png","w":2000,"h":1314,"tn_w":250,"tn_h":164,"tim":1399012964167,"time":1399012964,"md5":"Mx+xYDTJkHOP2xsoqYE7gQ==","fsize":319768,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"yellow-pufferfish-appreciation-thread","replies":71,"images":14,"omitted_posts":66,"omitted_images":13},{"no":41704976,"now":"05\/02\/14(Fri)12:02:06","name":"Anonymous","com":"<a
+        href=\"#p41704621\" class=\"quotelink\">&gt;&gt;41704621<\/a><br>http:\/\/tech.yandex.com\/events\/ruBSD<wbr>\/2013\/talks\/103\/","time":1399046526,"resto":41700091},{"no":41707477,"now":"05\/02\/14(Fri)14:59:36","name":"Anonymous","com":"Where
+        for art thou tripfag troll? Surely you can&#039;t let a BSD thread die without
+        facing us with your idiotic, fud spreading presence?","time":1399057176,"resto":41700091},{"no":41707502,"now":"05\/02\/14(Fri)15:01:08","name":"Anonymous","com":"<a
+        href=\"#p41707477\" class=\"quotelink\">&gt;&gt;41707477<\/a><br>*gracing","time":1399057268,"resto":41700091},{"no":41707585,"now":"05\/02\/14(Fri)15:06:31","name":"\u611b\u3057\u3066\u308b\u3055\u308f\u3053","com":"<a
+        href=\"#p41704236\" class=\"quotelink\">&gt;&gt;41704236<\/a><br>Mission accomplished.","filename":"muhnips","ext":".png","w":197,"h":300,"tn_w":82,"tn_h":125,"tim":1399057591811,"time":1399057591,"md5":"KT2jvTO0Tr9s8HLhCJlkXw==","fsize":85945,"resto":41700091,"trip":"!BE\/4wes0mE"},{"no":41707610,"now":"05\/02\/14(Fri)15:07:56","name":"Anonymous","com":"<a
+        href=\"#p41700091\" class=\"quotelink\">&gt;&gt;41700091<\/a><br><span class=\"quote\">&gt;2GB
+        of ram<\/span><br><span class=\"quote\">&gt;hd4770<\/span><br><span class=\"quote\">&gt;c2d
+        E4600<\/span><br><span class=\"quote\">&gt;weak<\/span><br>no<br>also<br>XP
+        &gt; OS X &gt; Linux &gt; *BSD","time":1399057676,"resto":41700091}]},{"posts":[{"no":41707609,"now":"05\/02\/14(Fri)15:07:49","name":"Anonymous","com":"Hello
+        \/g\/<br>I&#039;ve made this NSFW blog on tumblr. I would have uploaded videos,
+        but turns out tumblr removes most of them, so I converted a few videos in
+        gif. I&#039;m using the latest version of ffmpeg, but the quality is rather
+        poor. Pic related<br>*DO NOT OPEN IF YO MUM IS WATCHIN*<br>would you be able
+        to help me with this issue?<br>example of gif [NSFW]<br><br>http:\/\/a.pomf.se\/yohoqi.gif<br><br>pic
+        not related, 4chan wouldn&#039;t let me upload it for some reason","filename":"morrowind","ext":".png","w":1024,"h":768,"tn_w":250,"tn_h":187,"tim":1399057669850,"time":1399057669,"md5":"E53cjWN\/P5pDGHzbfc+5hg==","fsize":707127,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"hello-g-ive-made-this-nsfw-blog-on-tumblr-i-would","replies":0,"images":0}]},{"posts":[{"no":41698194,"now":"05\/01\/14(Thu)23:31:22","name":"Anonymous","sub":"Desktop
+        Thread","com":"Desktop Thread. R8\/\/H8\/\/Masturb8","filename":"no_time_for_rice","ext":".png","w":1440,"h":900,"tn_w":250,"tn_h":156,"tim":1399001482012,"time":1399001482,"md5":"o7KtdW\/nOWvQzFFhWJ4QaA==","fsize":119666,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"desktop-thread","replies":270,"images":112,"omitted_posts":265,"omitted_images":109},{"no":41707351,"now":"05\/02\/14(Fri)14:52:18","name":"Anonymous","com":"there
+        are no words","filename":"i3mustard","ext":".png","w":1440,"h":900,"tn_w":125,"tn_h":78,"tim":1399056738902,"time":1399056738,"md5":"sjUM7Mbn40ZS+ySPCuSWbg==","fsize":606285,"resto":41698194},{"no":41707356,"now":"05\/02\/14(Fri)14:52:48","name":"Scope","filename":"Desktop_Scope_Animu","ext":".png","w":3520,"h":1080,"tn_w":125,"tn_h":38,"tim":1399056768800,"time":1399056768,"md5":"+EtAECviSueiThzLeTwN2Q==","fsize":1803710,"resto":41698194,"trip":"!!7X3fi2Mi44w"},{"no":41707419,"now":"05\/02\/14(Fri)14:56:50","name":"Anonymous","com":"r8","filename":"demopan","ext":".jpg","w":1920,"h":1080,"tn_w":125,"tn_h":70,"tim":1399057010033,"time":1399057010,"md5":"AnOxUUF4EZjJiR\/WGIyY3A==","fsize":605278,"resto":41698194},{"no":41707457,"now":"05\/02\/14(Fri)14:58:32","name":"Anonymous","com":"I&#039;m
+        thinking of adding Linux Mint alongside my OSX\/Win 7 dual boot this weekend,
+        should I do it?<br><br><a href=\"#p41698838\" class=\"quotelink\">&gt;&gt;41698838<\/a><br>Why
+        have you called Spotify &#039;Smartfren&#039;?","filename":"Screen shot 2014-05-02
+        at 19.56.07","ext":".png","w":1280,"h":800,"tn_w":125,"tn_h":78,"tim":1399057112650,"time":1399057112,"md5":"BH0uhkpi5bVKff7QdY9dIw==","fsize":1441836,"resto":41698194},{"no":41707608,"now":"05\/02\/14(Fri)15:07:39","name":"Anonymous","com":"cool
+        thread, \/g\/<br><br>so i&#039;m in the process of setting up i3, and when
+        i open audacious and keep it in it&#039;s &#039;winamp classic interface&#039;,
+        this shit happens to the rest of the screen. any ideas?","filename":"2014-05-02-150554_796x861_scrot","ext":".png","w":796,"h":861,"tn_w":115,"tn_h":125,"tim":1399057659834,"time":1399057659,"md5":"E7nOXI2c\/jmGV+v38blQCg==","fsize":145532,"resto":41698194}]},{"posts":[{"no":41698428,"now":"05\/01\/14(Thu)23:47:29","name":"Anonymous","sub":"Daily
+        Programming Thread","com":"Daily Programming Thread<br><br>Honor fuzetsu then
+        tell us what are you working on","filename":"dptfuzetsu","ext":".png","w":779,"h":465,"tn_w":250,"tn_h":149,"tim":1399002449831,"time":1399002449,"md5":"TOKqr4p8cI1OnfrjahFM9A==","fsize":353362,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"daily-programming-thread","replies":294,"images":29,"omitted_posts":289,"omitted_images":27},{"no":41707584,"now":"05\/02\/14(Fri)15:06:30","name":"Anonymous","com":"what
+        do you guys think about c#?<br>is it a good first language to learn programming
+        ?","time":1399057590,"resto":41698428},{"no":41707589,"now":"05\/02\/14(Fri)15:06:35","name":"N0t_G4b3n","com":"<a
+        href=\"#p41707392\" class=\"quotelink\">&gt;&gt;41707392<\/a><br>code completion
+        for any language with typefree identifier is a joke.<br><br>otherwise, http:\/\/www.reddit.com\/r\/learnpython<wbr>\/wiki\/ide","filename":"cat_huge","ext":".gif","w":250,"h":381,"tn_w":82,"tn_h":125,"tim":1399057595759,"time":1399057595,"md5":"amnE7eGkmGB4QqlllXQ56g==","fsize":2087024,"resto":41698428,"trip":"!!dDbM1UXB1Uz"},{"no":41707593,"now":"05\/02\/14(Fri)15:06:47","name":"Anonymous","com":"<a
+        href=\"#p41707556\" class=\"quotelink\">&gt;&gt;41707556<\/a><br>Again, QWERTZ
+        means I would have to use both hands for that.","time":1399057607,"resto":41698428},{"no":41707601,"now":"05\/02\/14(Fri)15:07:14","name":"Anonymous","com":"What
+        kind of retard thought this:<br>.settings <br><pre class=\"prettyprint\">&lt;?xml
+        version=&#039;1.0&#039; encoding=&#039;utf-8&#039;?&gt;<br>&lt;SettingsFile
+        xmlns=&quot;http:\/\/schemas.microsoft.com<wbr>\/VisualStudio\/2004\/01\/settings&quot;
+        CurrentProfile=&quot;(Default)&quot; GeneratedClassNamespace=&quot;App.Proper<wbr>ties&quot;
+        GeneratedClassName=&quot;Settings&quot;&gt;<br>  &lt;Profiles \/&gt;<br>  &lt;Settings&gt;<br>    &lt;Setting
+        Name=&quot;Language&quot; Type=&quot;System.String&quot; Scope=&quot;User&quot;&gt;<br>      &lt;Value
+        Profile=&quot;(Default)&quot;&gt;en&lt;\/Value&gt;<br>    &lt;\/Setting&gt;<br>  &lt;\/Settings&gt;<br>&lt;\/SettingsFile&gt;<br><\/pre><br>would
+        be better than this<br>.ini<br><pre class=\"prettyprint\">language = en-US<br><\/pre><br>??
+        I mean seriously, they both save only key = value data yet the first one is
+        pure fucking bloat.<br>Thanks a lot c#","time":1399057634,"resto":41698428},{"no":41707607,"now":"05\/02\/14(Fri)15:07:37","name":"Anonymous","com":"<a
+        href=\"#p41707570\" class=\"quotelink\">&gt;&gt;41707570<\/a><br>also, if
+        you&#039;re only looking for Python autocomplete, you can use jedi-vim, instead
+        of YouCompleteMe, which is probably faster and easier to set up than YCM","time":1399057657,"resto":41698428}]},{"posts":[{"no":41702637,"now":"05\/02\/14(Fri)08:42:54","name":"Anonymous","com":"Remember
+        the days of no captcha, ghost bumping, RMS bots, spam, etc...<br><br>Good
+        days ;_;","filename":"kimmo","ext":".png","w":304,"h":89,"tn_w":249,"tn_h":73,"tim":1399034574265,"time":1399034574,"md5":"szDUVRlgzT5pNd92vuD4Vw==","fsize":38190,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"remember-the-days-of-no-captcha-ghost-bumping-rms","replies":120,"images":24,"omitted_posts":115,"omitted_images":23},{"no":41707546,"now":"05\/02\/14(Fri)15:04:22","name":"Anonymous","com":"<a
+        href=\"#p41707374\" class=\"quotelink\">&gt;&gt;41707374<\/a><br>fucking frozenvoid","filename":"fucking
+        cat","ext":".jpg","w":297,"h":295,"tn_w":125,"tn_h":124,"tim":1399057462351,"time":1399057462,"md5":"osN9Vh0LgVk0AQ1wlMcAIw==","fsize":63760,"resto":41702637},{"no":41707555,"now":"05\/02\/14(Fri)15:04:45","name":"Anonymous","com":"<a
+        href=\"#p41702637\" class=\"quotelink\">&gt;&gt;41702637<\/a><br>The surgeon
+        and the feppenditious egg men were the best. I actually liked that spam.","time":1399057485,"resto":41702637},{"no":41707574,"now":"05\/02\/14(Fri)15:05:55","name":"Anonymous","com":"<a
+        href=\"#p41702759\" class=\"quotelink\">&gt;&gt;41702759<\/a><br>Yeah, it
+        was pretty obvious.<br><br>Poor \/po\/ got hit so hard.","time":1399057555,"resto":41702637},{"no":41707592,"now":"05\/02\/14(Fri)15:06:45","name":"Anonymous","com":"<a
+        href=\"#p41707555\" class=\"quotelink\">&gt;&gt;41707555<\/a><br>Saying the
+        site of the guy who did the surgeon thing gets you an automatic 3 day ban
+        to this day, but mainly because that site has some article about moot raping
+        someone","time":1399057605,"resto":41702637},{"no":41707605,"now":"05\/02\/14(Fri)15:07:32","name":"Anonymous","com":"<a
+        href=\"#p41707530\" class=\"quotelink\">&gt;&gt;41707530<\/a><br>It&#039;s
+        funny because he&#039;s done this every year on \/b\/.  Can&#039;t wait again.","time":1399057652,"resto":41702637}]},{"posts":[{"no":41706651,"now":"05\/02\/14(Fri)14:06:24","name":"Anonymous","com":"Ok
+        so i downloaded debian (wheezy) just recently to learn and use. was a windows
+        through at through guy but i want more control of what i do and learn from
+        it. im trying to figure out how to set up or find a firewall to use in a public
+        access area, cause i cant afford internet. and im hiting issues. i was trying
+        to find ufw but it locks me out saying im not in the sudoers file. i looked
+        at the wiki and catalog but i have no clue how to start","filename":"frustrated-businessman","ext":".jpg","w":600,"h":338,"tn_w":250,"tn_h":140,"tim":1399053984856,"time":1399053984,"md5":"NNdDZQL5TPKgqqtxhaL9Rw==","fsize":31626,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"ok-so-i-downloaded-debian-wheezy-just-recently-to","replies":1,"images":0},{"no":41707600,"now":"05\/02\/14(Fri)15:07:11","name":"Anonymous","com":"<a
+        href=\"#p41706651\" class=\"quotelink\">&gt;&gt;41706651<\/a><br>Was the incident
+        reported? If so - your royally fucked m8.","time":1399057631,"resto":41706651}]},{"posts":[{"no":41707576,"now":"05\/02\/14(Fri)15:05:58","name":"Anonymous","com":"What
+        are your favorite userscripts?<br><br>Mine are:<br><br>CheckBoxMate for Greasemonkey:
+        selects or unselects checkboxes with a single mouse click and dragging.<br>http:\/\/userscripts.org\/scripts\/show<wbr>\/73700<br><br>Pandora
+        Freemium<br>deletes ads, puts download buttons and shit on pandora radio.<br>http:\/\/userscripts.org\/scripts\/show<wbr>\/134176<br><br>Youtube
+        I&#039;m Feeling Lucky: obvious<br>http:\/\/userscripts.org\/scripts\/show<wbr>\/104614","filename":"Untitled","ext":".png","w":222,"h":83,"tn_w":222,"tn_h":83,"tim":1399057558386,"time":1399057558,"md5":"xXeSQgHX7qlYj4HyJ6u9jA==","fsize":3875,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"what-are-your-favorite-userscripts-mine-are","replies":1,"images":0},{"no":41707599,"now":"05\/02\/14(Fri)15:07:10","name":"Anonymous","com":"Youtube
+        center is really nice.","time":1399057630,"resto":41707576}]},{"posts":[{"no":41703004,"now":"05\/02\/14(Fri)09:17:02","name":"Anonymous","sub":"Questions
+        thread","com":"Old one is full. Questions thread.<br><br>I (just like pretty
+        much everyone else) updated to Firefox 29. So far not much has changed, and
+        since I&#039;m using Tree Style Tabs I don&#039;t get the chrome-like feel.<br><br>One
+        thing that bothers me though; Two different colors of the top bar. How do
+        I change this?<br><br>(pic in next post)<br><br><span class=\"quote\">&gt;obligatory
+        pic<\/span>","filename":"question","ext":".jpg","w":600,"h":375,"tn_w":250,"tn_h":156,"tim":1399036622103,"time":1399036622,"md5":"ifX5IaAd\/qPjwT20mQLHXw==","fsize":128847,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"questions-thread","replies":127,"images":13,"omitted_posts":122,"omitted_images":12},{"no":41707575,"now":"05\/02\/14(Fri)15:05:58","name":"Anonymous","com":"<a
+        href=\"#p41703018\" class=\"quotelink\">&gt;&gt;41703018<\/a><br>jamen hejsa","time":1399057558,"resto":41703004},{"no":41707582,"now":"05\/02\/14(Fri)15:06:25","name":"Anonymous","com":"<a
+        href=\"#p41707538\" class=\"quotelink\">&gt;&gt;41707538<\/a><br>Your distro
+        will probably have a ntfs related package. Once installed you should have
+        the &#039;fsck.ntfs&#039; command available.","time":1399057585,"resto":41703004},{"no":41707596,"now":"05\/02\/14(Fri)15:06:59","name":"Anonymous","com":"<a
+        href=\"#p41707522\" class=\"quotelink\">&gt;&gt;41707522<\/a><br>Have you
+        checked to make sure there isn&#039;t an option in the BIOS to toggle it?<br><br>Also,
+        did you last turn off wifi via the button or within your OS?","time":1399057619,"resto":41703004},{"no":41707597,"now":"05\/02\/14(Fri)15:07:02","name":"Anonymous","com":"<a
+        href=\"#p41707492\" class=\"quotelink\">&gt;&gt;41707492<\/a><br>then how
+        come it looks smoother?","time":1399057622,"resto":41703004},{"no":41707598,"now":"05\/02\/14(Fri)15:07:08","name":"Anonymous","com":"<a
+        href=\"#p41707575\" class=\"quotelink\">&gt;&gt;41707575<\/a><br>Hallo","time":1399057628,"resto":41703004}]},{"posts":[{"no":41700757,"now":"05\/02\/14(Fri)04:32:49","name":"Anonymous","sub":"Cellphone
+        Jamming Is A Bad Thing?","com":"http:\/\/tbo.com\/news\/business\/fcc-se<wbr>ffner-man-was-using-cell-phone-jamm<wbr>er-20140429\/<br><br><span
+        class=\"quote\">&gt;Federal authorities say Humphreys was operating a cellular
+        jamming device during his daily commute between Seffner and Tampa. Humphreys,
+        60, told investigators he was using the jammer to keep people from talking
+        on a cellphone while driving<\/span><br><br><span class=\"quote\">&gt;The
+        use of the technology is illegal and dangerous, McKinnon said.<\/span><br><br><span
+        class=\"quote\">&gt;\u201cYou are cutting off any communication for any type
+        of emergency,&#039;&#039; McKinnon said. \u201cYou are potentially putting
+        people&#039;s lives at risk.\u201d<\/span><br><br>Oh god. How did we ever
+        survive without cellphones?","filename":"713242","ext":".jpg","w":400,"h":267,"tn_w":250,"tn_h":166,"tim":1399019569749,"time":1399019569,"md5":"sq11+NG0EYOevLiOhrPApA==","fsize":25133,"resto":0,"bumplimit":0,"imagelimit":0,"semantic_url":"cellphone-jamming-is-a-bad-thing","replies":39,"images":0,"omitted_posts":34,"omitted_images":0},{"no":41707415,"now":"05\/02\/14(Fri)14:56:38","name":"Anonymous","com":"<a
+        href=\"#p41707341\" class=\"quotelink\">&gt;&gt;41707341<\/a><br>So be it,
+        cell jammers are dangerous.<br>Just like cell phones, cars, the sun itself.<br>Passengers,
+        walking, breathing, eating. Should we ban them?","time":1399056998,"resto":41700757},{"no":41707495,"now":"05\/02\/14(Fri)15:00:51","name":"LAwLz","com":"<a
+        href=\"#p41707415\" class=\"quotelink\">&gt;&gt;41707415<\/a><br>The difference
+        is that cellphones, cars, the sun itself, walking, eating etc all have big
+        benefits.<br>Radio jammers have absolutely 0 benefits and put your and other
+        peoples&#039; lives at risk.<br>Are you trolling or just a colossal idiot
+        who can&#039;t see the difference?","time":1399057251,"resto":41700757,"trip":"!LAwLzaWU1A"},{"no":41707503,"now":"05\/02\/14(Fri)15:01:11","name":"Anonymous","com":"<a
+        href=\"#p41707415\" class=\"quotelink\">&gt;&gt;41707415<\/a><br><span class=\"quote\">&gt;driver
+        talking on the phone<\/span><br><span class=\"quote\">&gt;all of a sudden
+        no signal<\/span><br><span class=\"quote\">&gt;takes eyes off of road to see
+        what is wrong with phone<\/span><br><br>this is what they mean","time":1399057271,"resto":41700757},{"no":41707566,"now":"05\/02\/14(Fri)15:05:19","name":"Anonymous","com":"<a
+        href=\"#p41706219\" class=\"quotelink\">&gt;&gt;41706219<\/a><br><span class=\"quote\">&gt;how
+        did we ever survive without these constant connections to services?<\/span><br><br>Once
+        upon a time, there were these great, monolithic structures known as &quot;payphones&quot;.
+        They were scattered across the landscape in great multitudes. Also, people
+        possessed strange devices known as &quot;landlines&quot; and &quot;housephones&quot;.
+        Thes things were used to communicate with other people across great distances,
+        and were invaluable in an emergency. They have long since disappeared from
+        my native land, and will soon go the way of the dodo.","time":1399057519,"resto":41700757},{"no":41707595,"now":"05\/02\/14(Fri)15:07:00","name":"Anonymous","com":"Hello,
+        Officer, I am having an emergency.  I&#039;m driving 70 miles an hour right
+        now and I need to let you know about my emergency which requires I be incredibly
+        reckless and endanger other people on the road because I&#039;m far too lucky
+        to ever get in an accident while using my phone behind the wheel.  That&#039;s
+        just the thousands of other people daily that get into cellphone-related automobile
+        accidents, definitely could never be me.","time":1399057620,"resto":41700757}]}]}'
+    http_version: 
+  recorded_at: Fri, 02 May 2014 19:08:17 GMT
+recorded_with: VCR 2.9.0
