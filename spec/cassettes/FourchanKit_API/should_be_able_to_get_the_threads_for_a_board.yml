@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://a.4cdn.org/g/threads.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 02 May 2014 19:08:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Fri, 02 May 2014 19:08:10 GMT
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Expires:
+      - "-1"
+      Cf-Ray:
+      - 124681affccf0a48-ARN
+    body:
+      encoding: UTF-8
+      string: '[{"page":1,"threads":[{"no":39894014,"last_modified":1392330834},{"no":41705152,"last_modified":1399057684},{"no":41701877,"last_modified":1399057683},{"no":41698791,"last_modified":1399057683},{"no":41706976,"last_modified":1399057682},{"no":41700091,"last_modified":1399057676},{"no":41707609,"last_modified":1399057669},{"no":41698194,"last_modified":1399057659},{"no":41698428,"last_modified":1399057657},{"no":41702637,"last_modified":1399057652},{"no":41707507,"last_modified":1399057647},{"no":41706651,"last_modified":1399057631},{"no":41707576,"last_modified":1399057630},{"no":41703004,"last_modified":1399057628},{"no":41700757,"last_modified":1399057620}]},{"page":2,"threads":[{"no":41706691,"last_modified":1399057689},{"no":41707586,"last_modified":1399057592},{"no":41704005,"last_modified":1399057576},{"no":41707466,"last_modified":1399057555},{"no":41705367,"last_modified":1399057520},{"no":41698256,"last_modified":1399057585},{"no":41693147,"last_modified":1399057518},{"no":41707426,"last_modified":1399057570},{"no":41705918,"last_modified":1399057500},{"no":41697380,"last_modified":1399057477},{"no":41707094,"last_modified":1399057533},{"no":41707027,"last_modified":1399057461},{"no":41698736,"last_modified":1399057456},{"no":41706867,"last_modified":1399057425},{"no":41707288,"last_modified":1399057411}]},{"page":3,"threads":[{"no":41704624,"last_modified":1399057314},{"no":41707488,"last_modified":1399057267},{"no":41697422,"last_modified":1399057238},{"no":41700744,"last_modified":1399057208},{"no":41696453,"last_modified":1399057198},{"no":41703784,"last_modified":1399057190},{"no":41697227,"last_modified":1399057188},{"no":41706858,"last_modified":1399057177},{"no":41706592,"last_modified":1399057156},{"no":41703336,"last_modified":1399057145},{"no":41702127,"last_modified":1399057131},{"no":41707462,"last_modified":1399057124},{"no":41701338,"last_modified":1399057121},{"no":41707388,"last_modified":1399057095},{"no":41702370,"last_modified":1399057083}]},{"page":4,"threads":[{"no":41707228,"last_modified":1399057075},{"no":41707314,"last_modified":1399057059},{"no":41704164,"last_modified":1399057030},{"no":41704270,"last_modified":1399057022},{"no":41705717,"last_modified":1399057015},{"no":41704783,"last_modified":1399056940},{"no":41706227,"last_modified":1399056937},{"no":41706002,"last_modified":1399056917},{"no":41707391,"last_modified":1399057091},{"no":41701905,"last_modified":1399056866},{"no":41702916,"last_modified":1399057000},{"no":41707124,"last_modified":1399056807},{"no":41705702,"last_modified":1399056726},{"no":41703137,"last_modified":1399056690},{"no":41698664,"last_modified":1399056618}]},{"page":5,"threads":[{"no":41706176,"last_modified":1399056618},{"no":41705966,"last_modified":1399056581},{"no":41698697,"last_modified":1399056566},{"no":41706777,"last_modified":1399056545},{"no":41702967,"last_modified":1399056498},{"no":41700898,"last_modified":1399056391},{"no":41695152,"last_modified":1399056272},{"no":41686674,"last_modified":1399056096},{"no":41706200,"last_modified":1399056084},{"no":41705990,"last_modified":1399056070},{"no":41701705,"last_modified":1399055928},{"no":41705703,"last_modified":1399055839},{"no":41704616,"last_modified":1399055829},{"no":41707073,"last_modified":1399056859},{"no":41697810,"last_modified":1399055574}]},{"page":6,"threads":[{"no":41704718,"last_modified":1399055533},{"no":41688539,"last_modified":1399055835},{"no":41706273,"last_modified":1399056356},{"no":41706888,"last_modified":1399055218},{"no":41704505,"last_modified":1399055217},{"no":41706960,"last_modified":1399055107},{"no":41706955,"last_modified":1399055085},{"no":41706203,"last_modified":1399054851},{"no":41702790,"last_modified":1399054756},{"no":41704625,"last_modified":1399054735},{"no":41699703,"last_modified":1399054602},{"no":41704503,"last_modified":1399054592},{"no":41701923,"last_modified":1399054345},{"no":41695169,"last_modified":1399054330},{"no":41706557,"last_modified":1399054305}]},{"page":7,"threads":[{"no":41703376,"last_modified":1399054296},{"no":41703045,"last_modified":1399054062},{"no":41706289,"last_modified":1399054046},{"no":41705727,"last_modified":1399053993},{"no":41706090,"last_modified":1399053903},{"no":41699358,"last_modified":1399053881},{"no":41704124,"last_modified":1399053502},{"no":41702963,"last_modified":1399053350},{"no":41706428,"last_modified":1399053325},{"no":41702297,"last_modified":1399053298},{"no":41705095,"last_modified":1399053500},{"no":41704807,"last_modified":1399053102},{"no":41701581,"last_modified":1399053078},{"no":41697763,"last_modified":1399053074},{"no":41702859,"last_modified":1399052997}]},{"page":8,"threads":[{"no":41705603,"last_modified":1399052884},{"no":41705734,"last_modified":1399052818},{"no":41703583,"last_modified":1399052795},{"no":41693287,"last_modified":1399052698},{"no":41691225,"last_modified":1399052612},{"no":41706063,"last_modified":1399052529},{"no":41704491,"last_modified":1399052264},{"no":41704583,"last_modified":1399052257},{"no":41705053,"last_modified":1399052171},{"no":41705164,"last_modified":1399052163},{"no":41706191,"last_modified":1399052130},{"no":41694079,"last_modified":1399051949},{"no":41701935,"last_modified":1399051828},{"no":41705898,"last_modified":1399051479},{"no":41704196,"last_modified":1399051286}]},{"page":9,"threads":[{"no":41704602,"last_modified":1399051123},{"no":41705619,"last_modified":1399050712},{"no":41699041,"last_modified":1399050673},{"no":41702360,"last_modified":1399050600},{"no":41705210,"last_modified":1399050569},{"no":41705021,"last_modified":1399050558},{"no":41702393,"last_modified":1399050545},{"no":41704971,"last_modified":1399050538},{"no":41705611,"last_modified":1399050492},{"no":41703635,"last_modified":1399049995},{"no":41702811,"last_modified":1399049530},{"no":41701851,"last_modified":1399049283},{"no":41704277,"last_modified":1399049261},{"no":41705431,"last_modified":1399049229},{"no":41705289,"last_modified":1399049168}]},{"page":10,"threads":[{"no":41697854,"last_modified":1399050595},{"no":41704955,"last_modified":1399048783},{"no":41702962,"last_modified":1399051804},{"no":41702731,"last_modified":1399048390},{"no":41703499,"last_modified":1399048344},{"no":41702937,"last_modified":1399048083},{"no":41693263,"last_modified":1399056528},{"no":41702305,"last_modified":1399047684},{"no":41705113,"last_modified":1399047309},{"no":41701988,"last_modified":1399047003},{"no":41704247,"last_modified":1399046839},{"no":41704710,"last_modified":1399046780},{"no":41703584,"last_modified":1399046521},{"no":41696778,"last_modified":1399046202},{"no":41704185,"last_modified":1399045771}]}]'
+    http_version: 
+  recorded_at: Fri, 02 May 2014 19:08:17 GMT
+recorded_with: VCR 2.9.0

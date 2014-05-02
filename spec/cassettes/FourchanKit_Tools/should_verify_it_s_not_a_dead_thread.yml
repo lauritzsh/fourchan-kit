@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://boards.4chan.org/g/thread/41706090
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - __cfduid=de014ce34d66bd40cf1a3f4030a4f08471399058141422
+      Host:
+      - boards.4chan.org
+      If-Modified-Since:
+      - Fri, 02 May 2014 18:05:04 GMT
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 304
+      message: Not Modified
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 02 May 2014 19:15:43 GMT
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Fri, 02 May 2014 18:05:04 GMT
+      Etag:
+      - '"5363de50-15e7"'
+      Cache-Control:
+      - public, must-revalidate, proxy-revalidate
+      Cf-Ray:
+      - 12468c95095005b5-ARN
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 02 May 2014 19:15:43 GMT
+recorded_with: VCR 2.9.0
