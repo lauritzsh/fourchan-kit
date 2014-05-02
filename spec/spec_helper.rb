@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'fourchan_kit'
+require 'fourchan/kit'
 require 'vcr'
 
 VCR.configure do |c|

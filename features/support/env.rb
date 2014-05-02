@@ -1,6 +1,6 @@
 require 'aruba/cucumber'
 require 'aruba/in_process'
-require 'fourchan_kit/cli'
+require 'fourchan/kit/cli'
 require 'vcr'
 require 'webmock'
 
@@ -22,7 +22,7 @@ class VcrFriendlyMain
   def execute!
     $stdin = @stdin
     $stdout = @stdout
-    FourchanKit::CLI.start(@argv)
+    Fourchan::Kit::CLI.start(@argv)
   end
 end
 

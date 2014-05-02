@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'fourchan_kit/cli'
-FourchanKit::CLI.start
+require 'fourchan/kit/cli'
+Fourchan::Kit::CLI.start

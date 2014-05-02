@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe FourchanKit::Thread, :vcr do
+describe Fourchan::Kit::Thread, :vcr do
   before(:each) do
-    @thread = FourchanKit::Thread.new 'g', 41706090
+    @thread = Fourchan::Kit::Thread.new 'g', 41706090
   end
 
   it 'should have posts' do
