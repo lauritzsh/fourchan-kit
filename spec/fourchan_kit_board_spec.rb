@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe FourchanKit::Board, :vcr do
+describe Fourchan::Kit::Board, :vcr do
 
   before(:each) do
-    @board = FourchanKit::Board.new 'g'
+    @board = Fourchan::Kit::Board.new 'g'
   end
 
   it 'should have 10 pages' do

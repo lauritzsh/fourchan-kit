@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fourchan_kit/version'
+require 'fourchan/kit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fourchan_kit"
-  spec.version       = FourchanKit::VERSION
+  spec.name          = "fourchan-kit"
+  spec.version       = Fourchan::Kit::VERSION
   spec.authors       = ["lauritzsh"]
   spec.email         = ["mail@lauritz.me"]
   spec.summary       = %q{A tool and API wrapper for the 4chan API.}
   spec.description   = %q{Fourchan Kit is a Ruby wrapper and tool for the 4chan API. Use Fourchan Kit to interact with the API using Ruby, or use the tool to interact with the threads on 4chan.}
-  spec.homepage      = "http://rubygems.org/gems/fourchan_kit"
+  spec.homepage      = "http://rubygems.org/gems/fourchan-kit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
