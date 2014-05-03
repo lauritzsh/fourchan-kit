@@ -250,7 +250,6 @@
       <pre class="lines">
 
 
-15
 16
 17
 18
@@ -267,10 +266,11 @@
 29
 30
 31
-32</pre>
+32
+33</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 15</span>
+      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 16</span>
 
 <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_download_image'>download_image</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:fsize</span><span class='rbracket'>]</span> <span class='op'>||=</span> <span class='int'>0</span>
@@ -309,6 +309,9 @@
     
 <p>Downloads every image from a thread.</p>
 
+<p>Makes use of parallel processing for faster downloading. Currently set to 8
+threads.</p>
+
 
   </div>
 </div>
@@ -341,9 +344,6 @@
       <pre class="lines">
 
 
-38
-39
-40
 41
 42
 43
@@ -355,22 +355,41 @@
 49
 50
 51
-52</pre>
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 38</span>
+      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 41</span>
 
 <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_download_thread'>download_thread</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:checked</span><span class='rbracket'>]</span> <span class='op'>||=</span> <span class='kw'>false</span>
 
   <span class='kw'>if</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:checked</span><span class='rbracket'>]</span> <span class='op'>||</span> <span class='lparen'>(</span> <span class='id identifier rubyid_valid_thread?'>valid_thread?</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='rparen'>)</span> <span class='op'>&amp;&amp;</span> <span class='id identifier rubyid_valid_link?'>valid_link?</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='rparen'>)</span> <span class='rparen'>)</span>
     <span class='id identifier rubyid_board'>board</span><span class='comma'>,</span> <span class='id identifier rubyid_thread_no'>thread_no</span> <span class='op'>=</span> <span class='id identifier rubyid_get_info'>get_info</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='rparen'>)</span>
-    <span class='id identifier rubyid_thread'>thread</span> <span class='op'>=</span> <span class='const'>Thread</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_board'>board</span><span class='comma'>,</span> <span class='id identifier rubyid_thread_no'>thread_no</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_thread'>thread</span>  <span class='op'>=</span> <span class='const'>Thread</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_board'>board</span><span class='comma'>,</span> <span class='id identifier rubyid_thread_no'>thread_no</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_images'>images</span>  <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+    <span class='id identifier rubyid_sizes'>sizes</span>   <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
 
     <span class='id identifier rubyid_thread'>thread</span><span class='period'>.</span><span class='id identifier rubyid_posts'>posts</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_post'>post</span><span class='op'>|</span>
-      <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:fsize</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_fsize'>fsize</span>
-      <span class='id identifier rubyid_download_image'>download_image</span><span class='lparen'>(</span><span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_image_link'>image_link</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_image_link'>image_link</span>
+      <span class='id identifier rubyid_sizes'>sizes</span>  <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_fsize'>fsize</span>
+      <span class='id identifier rubyid_images'>images</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_image_link'>image_link</span> <span class='kw'>if</span> <span class='id identifier rubyid_post'>post</span><span class='period'>.</span><span class='id identifier rubyid_tim'>tim</span>
     <span class='kw'>end</span>
+
+    <span class='const'>Parallel</span><span class='period'>.</span><span class='id identifier rubyid_each_with_index'>each_with_index</span><span class='lparen'>(</span><span class='id identifier rubyid_images'>images</span><span class='comma'>,</span> <span class='label'>in_threads:</span> <span class='int'>8</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_image'>image</span><span class='comma'>,</span> <span class='id identifier rubyid_index'>index</span><span class='op'>|</span>
+      <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:fsize</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_sizes'>sizes</span><span class='lbracket'>[</span><span class='id identifier rubyid_index'>index</span><span class='rbracket'>]</span>
+      <span class='id identifier rubyid_download_image'>download_image</span><span class='lparen'>(</span><span class='id identifier rubyid_image'>image</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+
   <span class='kw'>else</span>
     <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Not a 4chan thread</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>unless</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:quiet</span><span class='rbracket'>]</span>
   <span class='kw'>end</span>
@@ -436,17 +455,6 @@ http://boards.4chan.org/wg/thread/5776602</code></pre>
       <pre class="lines">
 
 
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
 77
 78
 79
@@ -455,10 +463,21 @@ http://boards.4chan.org/wg/thread/5776602</code></pre>
 82
 83
 84
-85</pre>
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 66</span>
+      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 77</span>
 
 <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_download_threads'>download_threads</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:quiet</span><span class='rbracket'>]</span> <span class='op'>||=</span> <span class='kw'>false</span>
@@ -538,17 +557,6 @@ integer.</p>
       <pre class="lines">
 
 
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
 105
 106
 107
@@ -567,10 +575,21 @@ integer.</p>
 120
 121
 122
-123</pre>
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 94</span>
+      <pre class="code"><span class="info file"># File 'lib/fourchan/kit/tools.rb', line 105</span>
 
 <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_lurk'>lurk</span><span class='lparen'>(</span><span class='id identifier rubyid_link'>link</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Started lurking </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_link'>link</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
@@ -612,7 +631,7 @@ integer.</p>
 </div>
 
     <div id="footer">
-  Generated on Sat May  3 12:13:22 2014 by
+  Generated on Sat May  3 13:28:56 2014 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.8.7.4 (ruby-2.1.1).
 </div>
