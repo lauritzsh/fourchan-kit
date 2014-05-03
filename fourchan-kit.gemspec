@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mail@lauritz.me"]
   spec.summary       = %q{A tool and API wrapper for the 4chan API.}
   spec.description   = %q{Fourchan Kit is a Ruby wrapper and tool for the 4chan API. Use Fourchan Kit to interact with the API using Ruby, or use the tool to interact with the threads on 4chan.}
-  spec.homepage      = "http://rubygems.org/gems/fourchan-kit"
+  spec.homepage      = "https://github.com/lauritzsh/fourchan-kit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
