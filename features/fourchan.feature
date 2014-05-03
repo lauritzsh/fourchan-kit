@@ -5,13 +5,13 @@ Feature: Fourchan
 
   Scenario: I need some help
     When I run `fourchan help`
-    Then the output should contain "fourchan download"
+    Then the output should contain "Download all images from a thread"
   
   Scenario: I need some help to download
     When I run `fourchan help download`
     Then the output should contain "A valid URL for a thread"
   
-  Scenario: I need some help to download
+  Scenario: I need some help to lurk
     When I run `fourchan help lurk`
     Then the output should contain "Where to save images"
 
