@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "json",      "~> 1.8"
   spec.add_dependency "mechanize", "~> 2.7"
   spec.add_dependency "thor",      "~> 0.19"
+  spec.add_dependency "parallel",  "~> 1.0"
 
   spec.add_development_dependency "aruba",    "~> 0.5"
   spec.add_development_dependency "bundler",  "~> 1.6"
