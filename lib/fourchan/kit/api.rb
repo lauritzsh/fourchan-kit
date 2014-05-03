@@ -6,7 +6,7 @@ module Fourchan
 
     ##
     # This module contains methods for the 4chan API.  
-    # They all parse the JSON 4chan delivers and returns a Hash object.
+    # They all parse the JSON 4chan delivers and returns an Array object.
     module API
 
       ##
