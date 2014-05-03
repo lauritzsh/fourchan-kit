@@ -1,5 +1,6 @@
 require 'mechanize'
 require 'pathname'
+require 'parallel'
 
 module Fourchan
   module Kit
@@ -34,18 +35,28 @@ module Fourchan
       ##
       # Downloads every image from a thread.
       #
+      # Makes use of parallel processing for faster downloading. Currently set to 8 threads.
+      #
       # @param link [URL] the URL for the thread to download.
       def self.download_thread(link, options = {})
         options[:checked] ||= false
 
         if options[:checked] || ( valid_thread?(link) && valid_link?(link) )
           board, thread_no = get_info(link)
-          thread = Thread.new(board, thread_no)
+          thread  = Thread.new(board, thread_no)
+          images  = []
+          sizes   = []
 
           thread.posts.each do |post|
-            options[:fsize] = post.fsize
-            download_image(post.image_link, options.dup) if post.image_link
+            sizes  << post.fsize
+            images << post.image_link if post.tim
           end
+
+          Parallel.each_with_index(images, in_threads: 8) do |image, index|
+            options[:fsize] = sizes[index]
+            download_image(image, options.dup)
+          end
+
         else
           puts "Not a 4chan thread" unless options[:quiet]
         end
