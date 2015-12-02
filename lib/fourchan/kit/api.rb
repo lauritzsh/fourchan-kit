@@ -8,13 +8,14 @@ module Fourchan
     # This module contains methods for the 4chan API.  
     # They all parse the JSON 4chan delivers and returns an Array object.
     module API
+      BASE_API_URL = 'https://a.4cdn.org'
 
       ##
       # Returns information for all boards across 4chan.
       #
       # @return [Array] information for all boards.
       def self.get_boards
-        JSON.parse(open("http://a.4cdn.org/boards.json").read)['boards']
+        JSON.parse(open("#{BASE_API_URL}/boards.json").read)['boards']
       end
 
       ##
@@ -23,7 +24,7 @@ module Fourchan
       # @param board [String] the board.
       # @return [Array] all threads for a board.
       def self.get_catalog(board)
-        JSON.parse(open("http://a.4cdn.org/#{board}/catalog.json").read)
+        JSON.parse(open("#{BASE_API_URL}/#{board}/catalog.json").read)
       end
 
       ##
@@ -32,7 +33,7 @@ module Fourchan
       # @param board [String] the board.
       # @return [Array] the id and time for all threads.
       def self.get_threads(board)
-        JSON.parse(open("http://a.4cdn.org/#{board}/threads.json").read)
+        JSON.parse(open("#{BASE_API_URL}/#{board}/threads.json").read)
       end
 
       ##
@@ -42,7 +43,8 @@ module Fourchan
       # @param thread [Integer] the thread number.
       # @return [Array] the posts in from a thread.
       def self.get_thread(board, thread)
-        JSON.parse(open("http://a.4cdn.org/#{board}/thread/#{thread}.json").read)['posts']
+        JSON.parse(open("#{BASE_API_URL}/#{board}/thread/#{thread}.json").read)['posts']
+
       end
 
       ##
@@ -55,7 +57,7 @@ module Fourchan
       # @param page  [Integer] the thread number.
       # @return [Array] all threads from a page.
       def self.get_page(board, page)
-        JSON.parse(open("http://a.4cdn.org/#{board}/#{page}.json").read)['threads']
+        JSON.parse(open("#{BASE_API_URL}/#{board}/#{page}.json").read)['threads']
       end
     end
   end

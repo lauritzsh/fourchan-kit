@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://a.4cdn.org/g/1.json
+    uri: https://a.4cdn.org/g/1.json
     body:
       encoding: US-ASCII
       string: ''

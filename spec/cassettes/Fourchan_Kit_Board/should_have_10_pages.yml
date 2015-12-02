@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://a.4cdn.org/boards.json
+    uri: https://a.4cdn.org/boards.json
     body:
       encoding: US-ASCII
       string: ''
@@ -68,7 +68,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:04 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/catalog.json
+    uri: https://a.4cdn.org/g/catalog.json
     body:
       encoding: US-ASCII
       string: ''

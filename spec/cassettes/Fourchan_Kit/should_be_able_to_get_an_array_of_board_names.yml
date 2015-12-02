@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://a.4cdn.org/boards.json
+    uri: https://a.4cdn.org/boards.json
     body:
       encoding: US-ASCII
       string: ''
