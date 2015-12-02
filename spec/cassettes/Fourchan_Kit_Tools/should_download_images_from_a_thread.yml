@@ -186,7 +186,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 19:15:41 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41706090.json
+    uri: https://a.4cdn.org/g/thread/41706090.json
     body:
       encoding: US-ASCII
       string: ''

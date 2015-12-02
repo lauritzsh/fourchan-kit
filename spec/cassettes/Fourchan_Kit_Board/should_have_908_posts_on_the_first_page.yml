@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://a.4cdn.org/g/catalog.json
+    uri: https://a.4cdn.org/g/catalog.json
     body:
       encoding: US-ASCII
       string: ''
@@ -2463,7 +2463,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:13 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/39894014.json
+    uri: https://a.4cdn.org/g/thread/39894014.json
     body:
       encoding: US-ASCII
       string: ''
@@ -2521,7 +2521,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:13 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41703004.json
+    uri: https://a.4cdn.org/g/thread/41703004.json
     body:
       encoding: US-ASCII
       string: ''
@@ -2938,7 +2938,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:14 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41705152.json
+    uri: https://a.4cdn.org/g/thread/41705152.json
     body:
       encoding: US-ASCII
       string: ''
@@ -3152,7 +3152,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:14 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41701877.json
+    uri: https://a.4cdn.org/g/thread/41701877.json
     body:
       encoding: US-ASCII
       string: ''
@@ -3612,7 +3612,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:14 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41705717.json
+    uri: https://a.4cdn.org/g/thread/41705717.json
     body:
       encoding: US-ASCII
       string: ''
@@ -3832,7 +3832,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:14 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41702370.json
+    uri: https://a.4cdn.org/g/thread/41702370.json
     body:
       encoding: US-ASCII
       string: ''
@@ -3930,7 +3930,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:14 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41704783.json
+    uri: https://a.4cdn.org/g/thread/41704783.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4016,7 +4016,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:15 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41706227.json
+    uri: https://a.4cdn.org/g/thread/41706227.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4116,7 +4116,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:15 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41706976.json
+    uri: https://a.4cdn.org/g/thread/41706976.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4274,7 +4274,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:15 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41707094.json
+    uri: https://a.4cdn.org/g/thread/41707094.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4354,7 +4354,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:16 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41706002.json
+    uri: https://a.4cdn.org/g/thread/41706002.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4420,7 +4420,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:16 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41697227.json
+    uri: https://a.4cdn.org/g/thread/41697227.json
     body:
       encoding: US-ASCII
       string: ''
@@ -4793,7 +4793,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:16 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41698428.json
+    uri: https://a.4cdn.org/g/thread/41698428.json
     body:
       encoding: US-ASCII
       string: ''
@@ -5930,7 +5930,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:16 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41702127.json
+    uri: https://a.4cdn.org/g/thread/41702127.json
     body:
       encoding: US-ASCII
       string: ''
@@ -5981,7 +5981,7 @@ http_interactions:
   recorded_at: Fri, 02 May 2014 18:56:17 GMT
 - request:
     method: get
-    uri: http://a.4cdn.org/g/thread/41707288.json
+    uri: https://a.4cdn.org/g/thread/41707288.json
     body:
       encoding: US-ASCII
       string: ''
