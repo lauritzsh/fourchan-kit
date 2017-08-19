@@ -112,7 +112,7 @@ module Fourchan
         download_image(thread.op.image_link, options.dup)
 
         begin
-          timeout(options[:timeout]) do
+          Timeout.timeout(options[:timeout]) do
             loop do
               puts "Checking for images" unless options[:quiet]
               new = thread.fetch_replies
