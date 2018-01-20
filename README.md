@@ -1,16 +1,16 @@
-#Fourchan::Kit
+# Fourchan::Kit
 Fourchan::Kit is a Ruby wrapper and tool for the 4chan API. Use Fourchan::Kit to interact
 with the API using Ruby, or use the tool to interact with the threads on 4chan.
 
-##Installation
+## Installation
     [sudo] gem install fourchan-kit
 
-##Usage
+## Usage
 Be sure to checkout out the
 [documentation](http://lauritzsh.github.io/fourchan-kit/), if you are in doubt of how
 something works.
 
-###Using the Board class
+### Using the Board class
     require 'fourchan/kit'
 
     g = Fourchan::Kit::Board.new 'g'
@@ -26,7 +26,7 @@ so it's possible to do:
     g.threads(1).first.no          # => 39894014
     g.threads(1).first.image_link  # => http://i.4cdn.org/g/1390842451744.png
 
-###Using the Thread class
+### Using the Thread class
 For now it needs a board and a thread number. Later it might be possible to give
 an URL instead.
 
@@ -49,7 +49,7 @@ an URL instead.
       post.sub         # => 'Urban/Architecture'
     end
 
-###Using the binary
+### Using the binary
     $ fourchan help
     Commands:
       fourchan download        # Download all images from a thread
@@ -90,7 +90,7 @@ downloading though, but rather keep checking for new images. User can define
 the interval between checks.  
 See `fourchan help lurk`.
 
-##Why Fourchan::Kit?
+## Why Fourchan::Kit?
 I wanted to try and make a Ruby gem, so it's basically just a little, personal
 project.
 
